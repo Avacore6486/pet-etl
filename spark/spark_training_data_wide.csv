@@ -1,0 +1,151 @@
+id,name,age,city,country,salary,bonus,department,role,experience_years,status,is_remote,rating,projects_count,email,created_at,updated_at
+1,Anna,38,Riga,Estonia,110247,3092,HR,middle,2.1,on_leave,False,1.65,6,user1@example.com,2022-02-25,2022-05-04
+2,Boris,38,Kazan,Estonia,128243,18949,Marketing,senior,12.1,inactive,True,4.8,20,user2@example.com,2020-01-31,2020-11-14
+3,Anna,34,Kazan,Estonia,119452,8738,Sales,middle,13.1,on_leave,True,4.46,19,user3@example.com,2024-01-01,2024-12-05
+4,Anna,49,Riga,Russia,79918,29293,IT,junior,1.3,inactive,True,1.92,1,user4@example.com,2020-09-20,2021-03-22
+5,Pavel,35,Moscow,Latvia,95033,25367,Sales,junior,9.5,inactive,False,4.74,5,user5@example.com,2022-08-02,2023-02-21
+6,Sergey,24,Riga,Estonia,73778,3017,IT,lead,1.9,inactive,True,4.06,8,user6@example.com,2022-07-01,2023-04-05
+7,Boris,56,Tallinn,Estonia,46671,5279,HR,senior,13.9,inactive,False,3.23,3,user7@example.com,2022-06-19,2023-01-04
+8,Olga,52,Riga,Russia,94806,17706,Marketing,junior,8.8,inactive,False,3.91,19,user8@example.com,2023-03-04,2023-03-25
+9,Boris,45,Tallinn,Estonia,63616,1616,HR,junior,5.6,on_leave,True,1.18,10,user9@example.com,2021-01-26,2021-12-05
+10,Anna,40,Kazan,Estonia,113139,14229,Sales,senior,12.5,inactive,True,1.38,11,user10@example.com,2022-08-13,2023-07-13
+11,Nina,34,Moscow,Russia,138489,13676,Marketing,senior,1.2,on_leave,False,3.62,12,user11@example.com,2022-12-07,2023-07-05
+12,Pavel,28,Tallinn,Estonia,99465,17711,IT,junior,7.4,inactive,True,4.49,14,user12@example.com,2022-08-11,2023-05-30
+13,Galya,60,Saint Petersburg,Latvia,102808,28021,Sales,middle,15.0,active,False,1.17,2,user13@example.com,2020-08-25,2021-04-11
+14,Nina,54,Moscow,Latvia,60334,12191,Sales,middle,4.6,on_leave,False,3.37,20,user14@example.com,2022-06-29,2023-01-31
+15,Sergey,54,Moscow,Estonia,113641,28177,HR,lead,1.3,inactive,False,2.16,20,user15@example.com,2022-11-15,2023-11-10
+16,Ivan,60,Saint Petersburg,Latvia,66776,9303,Marketing,middle,12.4,on_leave,False,3.63,11,user16@example.com,2022-05-29,2022-11-10
+17,Olga,39,Moscow,Latvia,52791,22089,IT,junior,17.7,inactive,False,2.8,7,user17@example.com,2022-02-20,2023-01-22
+18,Galya,27,Moscow,Russia,70270,13838,Finance,senior,18.2,inactive,False,2.59,12,user18@example.com,2021-05-07,2022-02-03
+19,Pavel,32,Tallinn,Estonia,77627,16029,Marketing,senior,13.8,on_leave,True,4.67,15,user19@example.com,2023-05-27,2023-10-15
+20,Boris,53,Riga,Russia,121567,12672,HR,senior,15.0,active,False,2.11,8,user20@example.com,2022-01-22,2022-12-29
+21,Vasya,21,Moscow,Estonia,80353,992,Marketing,senior,15.1,on_leave,False,4.79,15,user21@example.com,2021-03-09,2021-11-11
+22,Sergey,39,Saint Petersburg,Latvia,145313,16387,IT,junior,19.8,inactive,True,3.38,0,user22@example.com,2022-02-21,2022-11-25
+23,Ivan,22,Kazan,Estonia,113181,14424,HR,lead,17.6,on_leave,True,4.62,14,user23@example.com,2021-06-08,2021-10-26
+24,Galya,25,Moscow,Latvia,71740,19648,IT,lead,13.1,inactive,False,1.01,13,user24@example.com,2023-12-10,2024-06-25
+25,Sergey,27,Tallinn,Estonia,105317,16874,Finance,lead,19.3,inactive,False,3.58,10,user25@example.com,2023-09-16,2023-11-08
+26,Anna,35,Tallinn,Russia,144226,26017,Finance,senior,4.5,on_leave,False,3.24,16,user26@example.com,2021-07-19,2021-10-26
+27,Boris,51,Saint Petersburg,Russia,133938,29368,Marketing,senior,13.1,on_leave,False,3.11,18,user27@example.com,2023-10-23,2024-08-31
+28,Olga,26,Saint Petersburg,Estonia,56126,24685,IT,middle,4.5,active,False,2.78,20,user28@example.com,2021-06-13,2022-01-06
+29,Nina,18,Tallinn,Russia,56603,29013,Finance,middle,7.7,active,False,2.3,13,user29@example.com,2020-03-03,2020-03-30
+30,Boris,22,Moscow,Latvia,47084,11023,Sales,lead,19.1,inactive,False,2.13,2,user30@example.com,2023-01-06,2023-12-23
+31,Anna,19,Tallinn,Estonia,126340,4294,IT,middle,12.4,active,False,1.78,12,user31@example.com,2023-12-05,2024-11-08
+32,Pavel,30,Riga,Russia,56400,25277,HR,lead,1.3,active,False,3.78,10,user32@example.com,2020-03-06,2020-10-22
+33,Pavel,29,Kazan,Russia,105519,11354,IT,senior,11.7,active,False,2.94,7,user33@example.com,2021-09-27,2022-09-09
+34,Sergey,48,Moscow,Latvia,135578,976,Sales,lead,18.7,inactive,False,2.0,14,user34@example.com,2021-05-02,2022-02-02
+35,Anna,26,Riga,Latvia,54842,27932,HR,junior,9.6,active,True,1.53,14,user35@example.com,2023-01-25,2023-03-19
+36,Olga,46,Riga,Estonia,46124,17130,Marketing,senior,5.8,inactive,False,4.05,2,user36@example.com,2021-03-09,2021-12-24
+37,Sergey,41,Tallinn,Russia,53591,17156,Finance,senior,5.9,active,False,4.76,9,user37@example.com,2020-11-09,2021-06-22
+38,Nina,51,Tallinn,Latvia,42720,28321,HR,middle,8.7,inactive,True,1.94,6,user38@example.com,2021-11-18,2022-09-02
+39,Pavel,50,Tallinn,Latvia,114315,10348,Sales,middle,15.8,on_leave,False,2.07,19,user39@example.com,2022-08-25,2023-05-08
+40,Dima,35,Tallinn,Estonia,114670,26701,HR,senior,8.8,inactive,False,3.22,13,user40@example.com,2022-11-02,2023-01-06
+41,Vasya,44,Riga,Russia,110001,26089,IT,lead,8.6,inactive,True,1.13,4,user41@example.com,2022-05-02,2022-11-02
+42,Vasya,55,Riga,Latvia,125716,8116,Finance,lead,10.5,inactive,False,3.56,18,user42@example.com,2022-12-26,2023-03-24
+43,Pavel,20,Saint Petersburg,Estonia,147882,20137,IT,senior,13.1,active,True,4.09,20,user43@example.com,2023-03-20,2023-06-15
+44,Olga,19,Saint Petersburg,Latvia,143962,19075,HR,middle,14.4,active,False,3.66,7,user44@example.com,2023-02-04,2023-08-14
+45,Galya,31,Riga,Russia,133388,27272,Finance,junior,17.5,on_leave,True,2.67,19,user45@example.com,2021-10-30,2022-06-28
+46,Galya,20,Kazan,Russia,116866,20973,Marketing,lead,8.1,on_leave,False,4.99,18,user46@example.com,2023-01-04,2023-03-24
+47,Nina,43,Riga,Estonia,106323,17718,Sales,lead,10.6,inactive,True,4.7,4,user47@example.com,2023-01-04,2023-07-07
+48,Anna,36,Moscow,Estonia,50584,25515,Finance,middle,1.9,inactive,True,2.46,10,user48@example.com,2021-01-21,2021-05-17
+49,Dima,49,Tallinn,Estonia,87718,18963,HR,lead,17.3,on_leave,True,1.74,1,user49@example.com,2022-11-01,2023-09-10
+50,Pavel,43,Moscow,Latvia,83631,11218,IT,middle,7.3,inactive,True,4.21,14,user50@example.com,2021-11-28,2022-08-26
+51,Galya,48,Kazan,Latvia,91146,21957,Sales,middle,10.1,on_leave,False,3.74,1,user51@example.com,2020-09-29,2020-11-12
+52,Dima,34,Kazan,Latvia,101281,29171,Marketing,senior,12.7,on_leave,True,1.12,5,user52@example.com,2024-01-31,2024-07-26
+53,Olga,27,Moscow,Estonia,120009,8081,Marketing,middle,12.1,inactive,False,1.78,7,user53@example.com,2020-07-25,2020-08-13
+54,Anna,33,Saint Petersburg,Latvia,140584,13636,IT,lead,19.2,inactive,True,3.33,3,user54@example.com,2022-04-05,2022-08-03
+55,Galya,18,Tallinn,Russia,105221,25671,Sales,senior,14.9,on_leave,False,4.87,0,user55@example.com,2023-11-02,2023-12-26
+56,Sergey,57,Moscow,Latvia,112206,10278,IT,middle,4.5,on_leave,False,1.55,10,user56@example.com,2022-04-22,2022-07-25
+57,Galya,44,Moscow,Russia,137168,29484,Finance,lead,3.6,on_leave,False,2.48,13,user57@example.com,2022-07-28,2023-03-08
+58,Pavel,23,Saint Petersburg,Russia,82614,24914,HR,junior,19.7,active,False,1.87,9,user58@example.com,2022-04-22,2022-07-12
+59,Pavel,49,Saint Petersburg,Russia,54084,15061,IT,junior,8.6,on_leave,False,3.64,0,user59@example.com,2024-01-31,2024-05-10
+60,Dima,23,Kazan,Latvia,84858,13540,Finance,middle,1.6,active,True,3.18,5,user60@example.com,2021-07-11,2022-02-23
+61,Dima,47,Riga,Russia,88508,885,HR,middle,6.5,active,False,3.9,15,user61@example.com,2022-11-27,2023-02-21
+62,Galya,38,Tallinn,Latvia,112913,26114,IT,middle,19.4,on_leave,True,4.92,20,user62@example.com,2021-12-17,2022-09-28
+63,Ivan,23,Moscow,Estonia,110016,28849,HR,junior,6.7,active,False,2.77,19,user63@example.com,2020-06-29,2021-03-24
+64,Vasya,31,Tallinn,Russia,77044,19172,Finance,junior,1.2,inactive,True,1.68,20,user64@example.com,2022-08-18,2023-05-25
+65,Vasya,36,Riga,Estonia,59966,23297,IT,lead,10.6,inactive,False,3.0,6,user65@example.com,2023-02-07,2023-10-23
+66,Sergey,24,Saint Petersburg,Russia,79686,4100,Sales,senior,14.5,inactive,True,4.46,4,user66@example.com,2023-03-05,2023-03-31
+67,Nina,44,Saint Petersburg,Latvia,119990,13767,Marketing,senior,15.3,on_leave,False,2.0,18,user67@example.com,2023-02-25,2023-05-10
+68,Dima,22,Moscow,Latvia,79401,15894,Finance,lead,16.2,on_leave,True,2.03,8,user68@example.com,2020-07-26,2021-02-12
+69,Nina,51,Riga,Russia,79080,12325,Finance,senior,7.8,active,True,2.81,0,user69@example.com,2021-07-08,2022-03-18
+70,Vasya,54,Tallinn,Latvia,90298,23803,Marketing,middle,10.4,on_leave,False,4.29,1,user70@example.com,2021-01-31,2021-07-22
+71,Ivan,30,Moscow,Estonia,134176,12534,HR,lead,17.4,on_leave,True,3.88,14,user71@example.com,2021-08-20,2022-04-05
+72,Anna,39,Riga,Latvia,102703,4346,Finance,middle,17.4,on_leave,False,2.08,12,user72@example.com,2022-11-23,2023-06-14
+73,Olga,49,Tallinn,Latvia,69120,3848,HR,lead,10.0,active,False,3.47,19,user73@example.com,2022-10-30,2023-06-02
+74,Boris,40,Kazan,Russia,80319,16758,HR,lead,3.2,active,True,2.75,11,user74@example.com,2021-11-22,2022-07-17
+75,Pavel,48,Saint Petersburg,Russia,127568,25210,Finance,middle,18.8,on_leave,False,1.47,18,user75@example.com,2021-07-11,2021-10-26
+76,Pavel,56,Kazan,Russia,56105,29542,Sales,lead,18.3,active,True,3.34,14,user76@example.com,2023-11-17,2024-07-28
+77,Galya,60,Tallinn,Russia,63566,7199,IT,lead,0.6,on_leave,False,2.39,6,user77@example.com,2020-08-28,2020-11-30
+78,Pavel,20,Riga,Latvia,115201,21851,HR,lead,8.2,inactive,False,2.19,8,user78@example.com,2020-10-16,2021-01-08
+79,Galya,38,Tallinn,Russia,91852,23731,Finance,senior,18.6,on_leave,False,4.37,1,user79@example.com,2021-09-30,2022-07-29
+80,Anna,52,Kazan,Latvia,76860,698,Finance,junior,6.3,inactive,True,4.49,15,user80@example.com,2021-02-09,2022-01-06
+81,Vasya,50,Riga,Estonia,142999,29820,Sales,junior,2.4,inactive,True,1.0,10,user81@example.com,2023-06-30,2024-03-03
+82,Dima,32,Tallinn,Russia,68371,12379,IT,middle,15.3,on_leave,False,4.42,2,user82@example.com,2020-01-18,2020-10-11
+83,Vasya,35,Tallinn,Latvia,45903,16037,Marketing,middle,2.2,inactive,True,2.73,15,user83@example.com,2023-09-25,2024-04-25
+84,Boris,29,Moscow,Latvia,45782,2916,Marketing,middle,4.0,active,False,2.7,15,user84@example.com,2020-04-08,2020-04-23
+85,Galya,18,Kazan,Latvia,76139,17682,Marketing,lead,1.8,active,True,3.28,13,user85@example.com,2023-11-01,2024-05-06
+86,Sergey,44,Tallinn,Estonia,41162,19448,Marketing,middle,6.1,active,True,4.73,7,user86@example.com,2022-05-29,2022-10-03
+87,Nina,18,Riga,Russia,65597,5127,Finance,senior,17.0,active,False,4.85,6,user87@example.com,2020-09-07,2021-06-11
+88,Dima,28,Tallinn,Latvia,107452,10524,Marketing,middle,10.9,inactive,False,4.18,1,user88@example.com,2023-05-04,2023-09-18
+89,Nina,56,Riga,Latvia,141744,26322,HR,middle,19.3,on_leave,True,2.6,4,user89@example.com,2022-01-31,2022-05-24
+90,Vasya,54,Tallinn,Latvia,75697,3508,Marketing,junior,14.9,active,False,2.24,5,user90@example.com,2020-07-27,2021-02-21
+91,Boris,58,Kazan,Estonia,61343,24830,HR,junior,4.6,active,False,2.75,1,user91@example.com,2020-02-22,2020-03-07
+92,Pavel,57,Moscow,Russia,94024,16892,Marketing,junior,5.0,active,True,1.94,2,user92@example.com,2023-06-13,2023-11-06
+93,Boris,50,Kazan,Russia,120366,11374,HR,lead,1.2,active,False,4.97,7,user93@example.com,2020-09-10,2021-01-24
+94,Sergey,32,Tallinn,Russia,80605,8340,HR,lead,0.7,inactive,False,4.93,13,user94@example.com,2020-10-12,2021-05-05
+95,Nina,56,Moscow,Latvia,73463,8837,IT,lead,12.5,active,True,2.0,1,user95@example.com,2022-08-05,2023-04-03
+96,Galya,60,Tallinn,Russia,64726,22513,HR,lead,5.5,active,False,4.21,13,user96@example.com,2023-11-17,2024-01-17
+97,Anna,28,Moscow,Latvia,84062,10752,Marketing,middle,16.6,on_leave,False,3.39,9,user97@example.com,2022-10-06,2023-10-04
+98,Pavel,24,Moscow,Estonia,109271,10966,Finance,lead,12.2,inactive,True,2.47,6,user98@example.com,2022-03-13,2022-10-20
+99,Nina,37,Kazan,Latvia,145353,8340,IT,junior,5.9,inactive,True,1.92,13,user99@example.com,2022-09-03,2023-08-30
+100,Dima,53,Moscow,Russia,108999,21467,Marketing,middle,0.8,on_leave,False,4.75,11,user100@example.com,2023-01-27,2023-12-25
+101,Ivan,45,Riga,Estonia,109400,10438,Marketing,junior,9.6,active,False,2.77,1,user101@example.com,2023-06-01,2023-06-10
+102,Boris,59,Riga,Estonia,132318,11217,Marketing,senior,20.0,inactive,True,3.65,14,user102@example.com,2023-05-15,2023-06-17
+103,Ivan,59,Moscow,Latvia,115130,17656,HR,junior,12.5,inactive,True,2.03,16,user103@example.com,2021-07-22,2022-06-14
+104,Nina,20,Moscow,Latvia,114566,12468,Marketing,middle,10.0,active,False,1.8,8,user104@example.com,2022-10-26,2023-08-04
+105,Boris,29,Saint Petersburg,Russia,61344,7946,Marketing,middle,12.2,active,False,2.67,9,user105@example.com,2021-01-29,2021-09-20
+106,Galya,23,Moscow,Russia,106096,16167,Marketing,senior,7.2,on_leave,True,1.5,6,user106@example.com,2023-08-31,2024-01-11
+107,Dima,58,Moscow,Russia,52744,16094,Finance,middle,4.8,inactive,False,4.5,8,user107@example.com,2023-01-26,2023-12-01
+108,Pavel,52,Moscow,Latvia,140545,4541,HR,junior,4.4,inactive,False,2.04,8,user108@example.com,2020-06-14,2021-03-14
+109,Sergey,38,Tallinn,Estonia,96012,18904,Finance,middle,6.5,inactive,True,1.33,17,user109@example.com,2022-01-11,2022-04-24
+110,Pavel,59,Tallinn,Russia,47426,1011,Finance,lead,10.1,on_leave,True,4.36,13,user110@example.com,2023-02-03,2023-04-28
+111,Galya,55,Saint Petersburg,Estonia,65789,25911,Sales,lead,8.5,on_leave,False,3.31,18,user111@example.com,2021-01-20,2021-11-30
+112,Dima,41,Moscow,Russia,96462,19385,HR,middle,1.0,active,False,3.99,5,user112@example.com,2021-06-03,2022-02-12
+113,Anna,59,Moscow,Russia,56541,18560,IT,middle,16.2,inactive,False,2.11,9,user113@example.com,2020-07-07,2021-02-22
+114,Ivan,22,Saint Petersburg,Estonia,124629,15267,HR,middle,13.7,active,False,2.08,2,user114@example.com,2020-01-24,2020-05-26
+115,Nina,43,Saint Petersburg,Russia,137845,16080,IT,lead,5.4,inactive,True,1.79,0,user115@example.com,2020-11-02,2020-11-27
+116,Nina,21,Riga,Russia,149690,23022,IT,senior,12.8,active,True,4.37,19,user116@example.com,2024-01-21,2024-05-01
+117,Pavel,29,Saint Petersburg,Estonia,44754,26270,Marketing,senior,18.8,on_leave,False,3.35,7,user117@example.com,2022-08-26,2023-03-01
+118,Anna,57,Kazan,Estonia,51182,29098,HR,junior,9.2,inactive,True,2.73,6,user118@example.com,2020-02-13,2020-07-11
+119,Pavel,26,Riga,Estonia,99950,21838,Finance,junior,17.9,inactive,False,1.92,15,user119@example.com,2020-05-18,2021-04-08
+120,Ivan,46,Moscow,Russia,131016,3697,Finance,middle,8.5,on_leave,False,4.37,14,user120@example.com,2022-01-01,2022-11-14
+121,Anna,51,Kazan,Russia,107100,15188,Marketing,senior,6.5,inactive,False,4.25,12,user121@example.com,2022-07-12,2022-07-27
+122,Boris,55,Tallinn,Russia,141373,26887,IT,senior,13.9,inactive,True,4.52,16,user122@example.com,2023-11-15,2024-04-08
+123,Sergey,29,Kazan,Estonia,60898,13654,Finance,senior,5.9,active,False,1.39,12,user123@example.com,2021-07-19,2022-03-22
+124,Nina,28,Kazan,Russia,114607,22507,Marketing,middle,10.9,on_leave,False,2.54,17,user124@example.com,2023-02-05,2023-09-18
+125,Olga,37,Saint Petersburg,Russia,147183,11108,Sales,lead,0.7,active,False,3.94,20,user125@example.com,2020-07-01,2020-11-04
+126,Galya,55,Tallinn,Latvia,99048,3874,Sales,middle,12.6,on_leave,False,3.19,6,user126@example.com,2021-03-05,2021-10-18
+127,Olga,24,Kazan,Latvia,81144,1757,Sales,lead,18.5,active,False,1.49,2,user127@example.com,2021-05-30,2022-04-13
+128,Ivan,26,Riga,Estonia,81845,20656,HR,middle,10.2,inactive,False,4.07,15,user128@example.com,2022-01-30,2022-05-13
+129,Olga,38,Riga,Latvia,106818,9723,Marketing,senior,6.9,on_leave,True,3.42,19,user129@example.com,2022-06-01,2023-03-13
+130,Dima,34,Kazan,Russia,66512,3453,Marketing,middle,3.9,on_leave,True,3.43,15,user130@example.com,2020-10-10,2021-02-04
+131,Ivan,22,Saint Petersburg,Estonia,116688,9315,Sales,middle,14.8,on_leave,False,4.53,15,user131@example.com,2021-11-24,2022-02-04
+132,Vasya,45,Riga,Estonia,125629,7177,Marketing,senior,8.6,active,False,2.63,15,user132@example.com,2021-06-19,2022-03-20
+133,Vasya,28,Moscow,Estonia,145840,24351,Sales,lead,19.3,on_leave,True,2.9,20,user133@example.com,2022-04-23,2022-07-04
+134,Olga,35,Saint Petersburg,Latvia,76172,20131,Sales,middle,7.4,active,False,2.24,13,user134@example.com,2021-02-09,2021-07-11
+135,Galya,49,Tallinn,Estonia,148705,29304,Finance,junior,16.7,inactive,True,3.93,5,user135@example.com,2024-02-02,2024-11-23
+136,Boris,24,Kazan,Latvia,58105,18075,IT,senior,9.0,active,False,1.79,1,user136@example.com,2022-06-27,2022-12-27
+137,Ivan,19,Riga,Russia,90780,20229,Marketing,lead,13.7,on_leave,False,1.57,4,user137@example.com,2023-04-01,2023-09-13
+138,Olga,49,Tallinn,Russia,64654,23796,Marketing,senior,1.1,on_leave,True,3.95,12,user138@example.com,2022-04-04,2022-12-10
+139,Anna,40,Saint Petersburg,Latvia,45467,23260,HR,junior,19.9,on_leave,False,3.46,7,user139@example.com,2023-07-13,2024-07-08
+140,Ivan,60,Saint Petersburg,Russia,64742,16947,HR,junior,3.7,on_leave,False,4.72,4,user140@example.com,2021-07-30,2022-01-22
+141,Vasya,40,Moscow,Russia,44718,19728,IT,senior,16.6,active,False,2.76,10,user141@example.com,2023-08-12,2023-10-24
+142,Sergey,19,Saint Petersburg,Russia,110352,10016,Marketing,lead,14.9,inactive,False,3.41,20,user142@example.com,2023-06-14,2023-12-17
+143,Pavel,22,Kazan,Latvia,126133,9739,Sales,middle,1.4,on_leave,True,1.04,18,user143@example.com,2022-03-19,2022-06-24
+144,Olga,51,Riga,Russia,110917,27294,IT,junior,3.8,inactive,False,1.12,7,user144@example.com,2022-05-13,2022-10-16
+145,Anna,56,Tallinn,Russia,147667,22320,IT,junior,16.3,on_leave,True,2.53,4,user145@example.com,2022-08-09,2023-04-08
+146,Nina,21,Riga,Russia,67822,1261,IT,junior,8.8,inactive,True,3.48,18,user146@example.com,2022-02-28,2022-04-16
+147,Nina,22,Riga,Russia,62905,14352,Finance,middle,17.9,on_leave,True,3.65,12,user147@example.com,2021-08-05,2021-10-28
+148,Olga,52,Tallinn,Latvia,115148,18133,IT,middle,11.8,active,True,1.31,14,user148@example.com,2023-09-22,2024-07-16
+149,Ivan,19,Riga,Estonia,87227,9513,HR,junior,3.6,active,False,1.43,15,user149@example.com,2023-12-27,2024-02-02
+150,Nina,57,Saint Petersburg,Estonia,59956,28867,Sales,middle,4.5,active,True,2.62,15,user150@example.com,2020-06-10,2020-07-16
