@@ -1,0 +1,28 @@
+[2026-03-22T17:58:51.832+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-22T17:58:51.862+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.load_raw manual__2026-03-22T17:58:50.513040+00:00 [queued]>
+[2026-03-22T17:58:51.867+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.load_raw manual__2026-03-22T17:58:50.513040+00:00 [queued]>
+[2026-03-22T17:58:51.868+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-22T17:58:51.874+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_raw> on 2026-03-22 17:58:50.513040+00:00
+[2026-03-22T17:58:51.880+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_raw_pipeline', 'load_raw', 'manual__2026-03-22T17:58:50.513040+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_daily_dag.py', '--cfg-path', '/tmp/tmpeojsggp4']
+[2026-03-22T17:58:51.883+0000] {standard_task_runner.py:91} INFO - Job 23: Subtask load_raw
+[2026-03-22T17:58:51.883+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=5924) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-22T17:58:51.885+0000] {standard_task_runner.py:63} INFO - Started process 5925 to run task
+[2026-03-22T17:58:51.917+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_raw_pipeline.load_raw manual__2026-03-22T17:58:50.513040+00:00 [running]> on host 8742e1fd3736
+[2026-03-22T17:58:51.969+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_raw_pipeline' AIRFLOW_CTX_TASK_ID='load_raw' AIRFLOW_CTX_EXECUTION_DATE='2026-03-22T17:58:50.513040+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-22T17:58:50.513040+00:00'
+[2026-03-22T17:58:51.970+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-22T17:59:26.154+0000] {logging_mixin.py:188} INFO - Дата загрузки: 2026-03-16
+[2026-03-22T17:59:26.159+0000] {logging_mixin.py:188} INFO - Сохранено фильмов из discover: 40
+[2026-03-22T17:59:26.160+0000] {logging_mixin.py:188} INFO - Сохранено деталей фильмов: 40
+[2026-03-22T17:59:26.162+0000] {logging_mixin.py:188} INFO - Дата загрузки: 2026-03-16
+[2026-03-22T17:59:26.162+0000] {logging_mixin.py:188} INFO - Discover после dedup: 40
+[2026-03-22T17:59:26.163+0000] {logging_mixin.py:188} INFO - Details после dedup: 40
+[2026-03-22T17:59:26.185+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2026-03-22T17:59:26.218+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-03-22T17:59:26.231+0000] {logging_mixin.py:188} INFO - Загружена дата: 2026-03-16
+[2026-03-22T17:59:26.231+0000] {logging_mixin.py:188} INFO - Следующая дата загрузки: 2026-03-17
+[2026-03-22T17:59:26.231+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-22T17:59:26.232+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-22T17:59:26.237+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tmdb_raw_pipeline, task_id=load_raw, run_id=manual__2026-03-22T17:58:50.513040+00:00, execution_date=20260322T175850, start_date=20260322T175851, end_date=20260322T175926
+[2026-03-22T17:59:26.268+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-22T17:59:26.281+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-22T17:59:26.282+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

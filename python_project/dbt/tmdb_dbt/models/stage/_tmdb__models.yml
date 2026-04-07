@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_tmdb_discover_movies
+    columns:
+      - name: raw_id
+        tests:
+          - not_null
+          - unique
+      - name: movie_id
+        tests:
+          - not_null
+      - name: load_date
+        tests:
+          - not_null
+
+  - name: stg_tmdb_movie_details_v2
+    columns:
+      - name: raw_id
+        tests:
+          - not_null
+          - unique
+      - name: movie_id
+        tests:
+          - not_null
+      - name: load_date
+        tests:
+          - not_null

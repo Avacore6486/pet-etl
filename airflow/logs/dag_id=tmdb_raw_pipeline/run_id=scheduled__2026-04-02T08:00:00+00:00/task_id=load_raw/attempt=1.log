@@ -1,0 +1,116 @@
+[2026-04-03T08:14:34.943+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-03T08:14:34.957+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.load_raw scheduled__2026-04-02T08:00:00+00:00 [queued]>
+[2026-04-03T08:14:34.960+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.load_raw scheduled__2026-04-02T08:00:00+00:00 [queued]>
+[2026-04-03T08:14:34.960+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2026-04-03T08:14:34.964+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_raw> on 2026-04-02 08:00:00+00:00
+[2026-04-03T08:14:34.970+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_raw_pipeline', 'load_raw', 'scheduled__2026-04-02T08:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_daily_dag.py', '--cfg-path', '/tmp/tmpeigv9yi3']
+[2026-04-03T08:14:34.971+0000] {standard_task_runner.py:91} INFO - Job 124: Subtask load_raw
+[2026-04-03T08:14:34.975+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2517) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-03T08:14:34.976+0000] {standard_task_runner.py:63} INFO - Started process 2518 to run task
+[2026-04-03T08:14:34.991+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_raw_pipeline.load_raw scheduled__2026-04-02T08:00:00+00:00 [running]> on host 8742e1fd3736
+[2026-04-03T08:14:35.031+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_raw_pipeline' AIRFLOW_CTX_TASK_ID='load_raw' AIRFLOW_CTX_EXECUTION_DATE='2026-04-02T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-02T08:00:00+00:00'
+[2026-04-03T08:14:35.031+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-03T08:14:35.075+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8150bda0>: Failed to establish a new connection: [Errno 111] Connection refused')': /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1
+[2026-04-03T08:14:37.080+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8159af00>: Failed to establish a new connection: [Errno 111] Connection refused')': /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1
+[2026-04-03T08:14:41.094+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8159b290>: Failed to establish a new connection: [Errno 111] Connection refused')': /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1
+[2026-04-03T08:14:49.123+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8159b740>: Failed to establish a new connection: [Errno 111] Connection refused')': /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1
+[2026-04-03T08:15:43.788+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8159b9b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1
+[2026-04-03T08:15:43.822+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-03T08:15:43.826+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff8159bec0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8159bec0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/tmdb_daily_dag.py", line 103, in run_for_airflow
+    result = run_tmdb_pipeline(
+             ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/tmdb_api.py", line 70, in run_tmdb_pipeline
+    movies = fetch_movies_by_date(load_date=load_date, pages=pages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/tmdb_api.py", line 44, in fetch_movies_by_date
+    response = session.get(DISCOVER_URL, params=params, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8159bec0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2026-04-03T08:15:43.860+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=tmdb_raw_pipeline, task_id=load_raw, run_id=scheduled__2026-04-02T08:00:00+00:00, execution_date=20260402T080000, start_date=20260403T081434, end_date=20260403T081543
+[2026-04-03T08:15:43.883+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 124 for task load_raw (HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/discover/movie?api_key=***&release_date.gte=2026-03-23&release_date.lte=2026-03-23&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8159bec0>: Failed to establish a new connection: [Errno 111] Connection refused')); 2518)
+[2026-04-03T08:15:43.913+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-04-03T08:15:43.942+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-03T08:15:43.943+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

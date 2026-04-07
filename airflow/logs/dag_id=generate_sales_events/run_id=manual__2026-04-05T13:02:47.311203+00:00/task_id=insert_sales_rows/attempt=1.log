@@ -1,0 +1,44 @@
+[2026-04-05T13:02:49.631+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-05T13:02:49.726+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: generate_sales_events.insert_sales_rows manual__2026-04-05T13:02:47.311203+00:00 [queued]>
+[2026-04-05T13:02:49.745+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: generate_sales_events.insert_sales_rows manual__2026-04-05T13:02:47.311203+00:00 [queued]>
+[2026-04-05T13:02:49.745+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-04-05T13:02:49.760+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_sales_rows> on 2026-04-05 13:02:47.311203+00:00
+[2026-04-05T13:02:49.765+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'generate_sales_events', 'insert_sales_rows', 'manual__2026-04-05T13:02:47.311203+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/generate_for_postgres.py', '--cfg-path', '/tmp/tmpaha8p68p']
+[2026-04-05T13:02:49.775+0000] {standard_task_runner.py:91} INFO - Job 148: Subtask insert_sales_rows
+[2026-04-05T13:02:49.781+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=64626) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-05T13:02:49.782+0000] {standard_task_runner.py:63} INFO - Started process 64627 to run task
+[2026-04-05T13:02:49.844+0000] {task_command.py:426} INFO - Running <TaskInstance: generate_sales_events.insert_sales_rows manual__2026-04-05T13:02:47.311203+00:00 [running]> on host 8742e1fd3736
+[2026-04-05T13:02:49.939+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='evgenia' AIRFLOW_CTX_DAG_ID='generate_sales_events' AIRFLOW_CTX_TASK_ID='insert_sales_rows' AIRFLOW_CTX_EXECUTION_DATE='2026-04-05T13:02:47.311203+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-05T13:02:47.311203+00:00'
+[2026-04-05T13:02:49.939+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-05T13:02:49.971+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-05T13:02:49.973+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/generate_for_postgres.py", line 38, in generate_and_insert
+    cur.executemany(
+psycopg2.errors.UndefinedTable: relation "sales_events" does not exist
+LINE 2:         INSERT INTO sales_events (product_id, category, quan...
+                            ^
+
+[2026-04-05T13:02:49.998+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=generate_sales_events, task_id=insert_sales_rows, run_id=manual__2026-04-05T13:02:47.311203+00:00, execution_date=20260405T130247, start_date=20260405T130249, end_date=20260405T130249
+[2026-04-05T13:02:50.005+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 148 for task insert_sales_rows (relation "sales_events" does not exist
+LINE 2:         INSERT INTO sales_events (product_id, category, quan...
+                            ^
+; 64627)
+[2026-04-05T13:02:50.051+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-04-05T13:02:50.068+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-05T13:02:50.068+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

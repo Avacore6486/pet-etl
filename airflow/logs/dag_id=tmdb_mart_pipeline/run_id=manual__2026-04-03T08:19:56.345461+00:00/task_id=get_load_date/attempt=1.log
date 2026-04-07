@@ -1,0 +1,19 @@
+[2026-04-03T08:19:57.022+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-03T08:19:57.036+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_mart_pipeline.get_load_date manual__2026-04-03T08:19:56.345461+00:00 [queued]>
+[2026-04-03T08:19:57.039+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_mart_pipeline.get_load_date manual__2026-04-03T08:19:56.345461+00:00 [queued]>
+[2026-04-03T08:19:57.039+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-04-03T08:19:57.044+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_load_date> on 2026-04-03 08:19:56.345461+00:00
+[2026-04-03T08:19:57.049+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_mart_pipeline', 'get_load_date', 'manual__2026-04-03T08:19:56.345461+00:00', '--job-id', '130', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_pipeline_to_mart.py', '--cfg-path', '/tmp/tmp83pu_haq']
+[2026-04-03T08:19:57.054+0000] {standard_task_runner.py:91} INFO - Job 130: Subtask get_load_date
+[2026-04-03T08:19:57.061+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2711) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-03T08:19:57.063+0000] {standard_task_runner.py:63} INFO - Started process 2712 to run task
+[2026-04-03T08:19:57.081+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_mart_pipeline.get_load_date manual__2026-04-03T08:19:56.345461+00:00 [running]> on host 8742e1fd3736
+[2026-04-03T08:19:57.122+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_mart_pipeline' AIRFLOW_CTX_TASK_ID='get_load_date' AIRFLOW_CTX_EXECUTION_DATE='2026-04-03T08:19:56.345461+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-03T08:19:56.345461+00:00'
+[2026-04-03T08:19:57.123+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-03T08:19:57.136+0000] {logging_mixin.py:188} INFO - Mart load_date: 2026-03-23
+[2026-04-03T08:19:57.136+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-03T08:19:57.136+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-03T08:19:57.141+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tmdb_mart_pipeline, task_id=get_load_date, run_id=manual__2026-04-03T08:19:56.345461+00:00, execution_date=20260403T081956, start_date=20260403T081957, end_date=20260403T081957
+[2026-04-03T08:19:57.162+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-03T08:19:57.172+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-03T08:19:57.173+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

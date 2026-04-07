@@ -1,0 +1,43 @@
+[2026-03-22T16:38:31.973+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-22T16:38:32.042+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.load_raw manual__2026-03-22T16:38:29.359170+00:00 [queued]>
+[2026-03-22T16:38:32.054+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.load_raw manual__2026-03-22T16:38:29.359170+00:00 [queued]>
+[2026-03-22T16:38:32.054+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-22T16:38:32.073+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_raw> on 2026-03-22 16:38:29.359170+00:00
+[2026-03-22T16:38:32.082+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_raw_pipeline', 'load_raw', 'manual__2026-03-22T16:38:29.359170+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_daily_dag.py', '--cfg-path', '/tmp/tmpe24x__v_']
+[2026-03-22T16:38:32.085+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask load_raw
+[2026-03-22T16:38:32.096+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2733) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-22T16:38:32.097+0000] {standard_task_runner.py:63} INFO - Started process 2734 to run task
+[2026-03-22T16:38:32.202+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_raw_pipeline.load_raw manual__2026-03-22T16:38:29.359170+00:00 [running]> on host 8742e1fd3736
+[2026-03-22T16:38:32.338+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_raw_pipeline' AIRFLOW_CTX_TASK_ID='load_raw' AIRFLOW_CTX_EXECUTION_DATE='2026-03-22T16:38:29.359170+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-22T16:38:29.359170+00:00'
+[2026-03-22T16:38:32.338+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-22T16:39:24.295+0000] {logging_mixin.py:188} INFO - Дата загрузки: 2026-03-15
+[2026-03-22T16:39:24.300+0000] {logging_mixin.py:188} INFO - Сохранено фильмов из discover: 40
+[2026-03-22T16:39:24.301+0000] {logging_mixin.py:188} INFO - Сохранено деталей фильмов: 40
+[2026-03-22T16:39:24.328+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2026-03-22T16:39:24.335+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-22T16:39:24.337+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/tmdb_daily_dag.py", line 34, in run_for_airflow
+    insert_discover_movies(conn, load_date, movies)
+    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'insert_discover_movies' is not defined
+[2026-03-22T16:39:24.363+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=tmdb_raw_pipeline, task_id=load_raw, run_id=manual__2026-03-22T16:38:29.359170+00:00, execution_date=20260322T163829, start_date=20260322T163832, end_date=20260322T163924
+[2026-03-22T16:39:24.378+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 7 for task load_raw (name 'insert_discover_movies' is not defined; 2734)
+[2026-03-22T16:39:24.417+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-22T16:39:24.432+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-22T16:39:24.433+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,789 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
+    "genre_ids": [
+      53,
+      80,
+      35
+    ],
+    "id": 1054867,
+    "original_language": "en",
+    "original_title": "One Battle After Another",
+    "overview": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+    "popularity": 133.5868,
+    "poster_path": "/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+    "release_date": "2025-09-23",
+    "title": "One Battle After Another",
+    "video": false,
+    "vote_average": 7.393,
+    "vote_count": 3212
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/tn95fumbkVAgXjOuw9CQOg0aYQz.jpg",
+    "genre_ids": [
+      28,
+      80,
+      18,
+      53
+    ],
+    "id": 1419406,
+    "original_language": "zh",
+    "original_title": "The Shadow's Edge",
+    "overview": "Macau Police brings the tracking expert police officer out of retirement to help catch a dangerous group of professional thieves.",
+    "popularity": 93.3624,
+    "poster_path": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
+    "release_date": "2025-08-16",
+    "title": "The Shadow's Edge",
+    "video": false,
+    "vote_average": 7.192,
+    "vote_count": 507
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/rZWkXnIyTLzUJpHSUpOb7vgB0BL.jpg",
+    "genre_ids": [
+      28,
+      18
+    ],
+    "id": 911430,
+    "original_language": "en",
+    "original_title": "F1",
+    "overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+    "popularity": 42.4562,
+    "poster_path": "/vqBmyAj0Xm9LnS1xe1MSlMAJyHq.jpg",
+    "release_date": "2025-06-25",
+    "title": "F1",
+    "video": false,
+    "vote_average": 7.752,
+    "vote_count": 3591
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/cd8YDn7M0lfaHhZdU6MvCDxPalP.jpg",
+    "genre_ids": [
+      28,
+      12,
+      878
+    ],
+    "id": 76600,
+    "original_language": "en",
+    "original_title": "Avatar: The Way of Water",
+    "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "popularity": 27.7934,
+    "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "release_date": "2022-12-14",
+    "title": "Avatar: The Way of Water",
+    "video": false,
+    "vote_average": 7.596,
+    "vote_count": 13851
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
+    "genre_ids": [
+      80,
+      18,
+      53
+    ],
+    "id": 1220564,
+    "original_language": "pt",
+    "original_title": "O Agente Secreto",
+    "overview": "Brazil, 1977. Marcelo, a technology expert in his early 40s, is on the run. Hoping to reunite with his son, he travels to Recife during Carnival but soon realizes that the city is not the safe haven he was expecting.",
+    "popularity": 26.3576,
+    "poster_path": "/rZqolYhxMEe6TZZTjSmFw9crDTD.jpg",
+    "release_date": "2025-07-23",
+    "title": "The Secret Agent",
+    "video": false,
+    "vote_average": 7.345,
+    "vote_count": 545
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/w57nxiBIODAYHLRs1xmrCY9zEFe.jpg",
+    "genre_ids": [
+      28,
+      18,
+      14
+    ],
+    "id": 1083637,
+    "original_language": "kn",
+    "original_title": "ಕಾಂತಾರ: ಅಧ್ಯಾಯ - ೧",
+    "overview": "During the Kadamba reign, King Vijayendra, the ruler of the fictional feudatory land of Bangra, meets his final fate while venturing into the mystical forest of Kantara. Witnessing this, his son Rajashekara seals the borders of their realm. Later, Prince Kulashekara reopens them through a brutal massacre. The protagonist, Berme, in search of prosperity, crosses the divide and ignites a conflict of faith, power, and destiny between the Kingdom and Nature.",
+    "popularity": 23.9425,
+    "poster_path": "/ehQPboTPaIMkMUOoNOh8e7pZ5Rp.jpg",
+    "release_date": "2025-10-01",
+    "title": "Kantara - A Legend: Chapter 1",
+    "video": false,
+    "vote_average": 6.971,
+    "vote_count": 69
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/tN3pTxkQoP96wtaEahYuRVdUWb2.jpg",
+    "genre_ids": [
+      878,
+      53,
+      35
+    ],
+    "id": 701387,
+    "original_language": "en",
+    "original_title": "Bugonia",
+    "overview": "Two conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+    "popularity": 23.6688,
+    "poster_path": "/rSdOua3wKMEaFWDcKAYWRjXQWOt.jpg",
+    "release_date": "2025-10-23",
+    "title": "Bugonia",
+    "video": false,
+    "vote_average": 7.353,
+    "vote_count": 1662
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+    "genre_ids": [
+      28,
+      80,
+      53
+    ],
+    "id": 1197306,
+    "original_language": "en",
+    "original_title": "A Working Man",
+    "overview": "Levon Cade left behind a decorated military career in the black ops to live a simple life working construction. But when his boss's daughter, who is like family to him, is taken by human traffickers, his search to bring her home uncovers a world of corruption far greater than he ever could have imagined.",
+    "popularity": 23.3816,
+    "poster_path": "/6FRFIogh3zFnVWn7Z6zcYnIbRcX.jpg",
+    "release_date": "2025-03-26",
+    "title": "A Working Man",
+    "video": false,
+    "vote_average": 6.686,
+    "vote_count": 1818
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
+    "genre_ids": [
+      16,
+      14,
+      12,
+      28
+    ],
+    "id": 980477,
+    "original_language": "zh",
+    "original_title": "哪吒之魔童闹海",
+    "overview": "After a catastrophic event leaves their bodies destroyed, Ne Zha and Ao Bing are granted a fragile second chance at life. As tensions rise between the dragon clans and celestial forces, the two must undergo a series of perilous trials that will test their bond, challenge their identities, and decide the fate of both mortals and immortals.",
+    "popularity": 23.3,
+    "poster_path": "/cb5NyNrqiCNNoDkA8FfxHAtypdG.jpg",
+    "release_date": "2025-01-29",
+    "title": "Ne Zha 2",
+    "video": false,
+    "vote_average": 8.122,
+    "vote_count": 622
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+    "genre_ids": [
+      10751,
+      878,
+      35
+    ],
+    "id": 552524,
+    "original_language": "en",
+    "original_title": "Lilo & Stitch",
+    "overview": "The wildly funny and touching story of a lonely Hawaiian girl and the fugitive alien who helps to mend her broken family.",
+    "popularity": 22.3371,
+    "poster_path": "/ckQzKpQJO4ZQDCN5evdpKcfm7Ys.jpg",
+    "release_date": "2025-05-17",
+    "title": "Lilo & Stitch",
+    "video": false,
+    "vote_average": 7.201,
+    "vote_count": 2073
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/vuUDwAi9UgLyNN9xZLtKTaLQWnl.jpg",
+    "genre_ids": [
+      35,
+      80,
+      53
+    ],
+    "id": 639988,
+    "original_language": "ko",
+    "original_title": "어쩔수가없다",
+    "overview": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
+    "popularity": 20.7115,
+    "poster_path": "/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
+    "release_date": "2025-09-24",
+    "title": "No Other Choice",
+    "video": false,
+    "vote_average": 7.564,
+    "vote_count": 834
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/k6tdiMTO39RQj3dhfspuzprfoe0.jpg",
+    "genre_ids": [
+      80,
+      28,
+      53
+    ],
+    "id": 941109,
+    "original_language": "en",
+    "original_title": "Play Dirty",
+    "overview": "Expert thief Parker gets a shot at a major heist, but to pull it off he and his team must outsmart a South American dictator, the New York mob, and the world's richest man.",
+    "popularity": 18.4952,
+    "poster_path": "/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg",
+    "release_date": "2025-09-30",
+    "title": "Play Dirty",
+    "video": false,
+    "vote_average": 6.585,
+    "vote_count": 582
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/yGByIyqgJerCw7AAphTrTAlrdkJ.jpg",
+    "genre_ids": [
+      28,
+      10752,
+      53,
+      36
+    ],
+    "id": 1328803,
+    "original_language": "en",
+    "original_title": "Prisoner of War",
+    "overview": "British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargained for when Wright’s years of martial arts training in Hong Kong prove him to be a formidable opponent.",
+    "popularity": 16.9529,
+    "poster_path": "/4T4yRG6iskDcfMeoLuUZEJYCrjL.jpg",
+    "release_date": "2025-09-19",
+    "title": "Prisoner of War",
+    "video": false,
+    "vote_average": 7.105,
+    "vote_count": 162
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/7aiQebqYUHbs2wZPhsTznuMWyeH.jpg",
+    "genre_ids": [
+      14,
+      28,
+      12
+    ],
+    "id": 1253000,
+    "original_language": "en",
+    "original_title": "Deathstalker",
+    "overview": "A powerful swordsman known as Deathstalker recovers a cursed amulet from a corpse-strewn battlefield. Marked by dark magic and hunted by monstrous assassins, he must face the rising evil and break the curse.",
+    "popularity": 14.7127,
+    "poster_path": "/nEI3DnzQC1afAjJOAizx6UX27pL.jpg",
+    "release_date": "2025-10-10",
+    "title": "Deathstalker",
+    "video": false,
+    "vote_average": 6.045,
+    "vote_count": 55
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/2dlt9I2ga6hweywz9zsFUz1PVii.jpg",
+    "genre_ids": [
+      878,
+      53,
+      27
+    ],
+    "id": 604079,
+    "original_language": "en",
+    "original_title": "The Long Walk",
+    "overview": "In a dystopian 1970s America, fifty teenage boys take part in a deadly annual walking contest, forced to maintain a minimum pace or be executed, until only one survivor remains.",
+    "popularity": 14.6717,
+    "poster_path": "/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
+    "release_date": "2025-09-10",
+    "title": "The Long Walk",
+    "video": false,
+    "vote_average": 6.917,
+    "vote_count": 1246
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nsHXexZQvUJv8WXvmQHohn5Hv1l.jpg",
+    "genre_ids": [
+      80,
+      53,
+      37
+    ],
+    "id": 6977,
+    "original_language": "en",
+    "original_title": "No Country for Old Men",
+    "overview": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+    "popularity": 12.8881,
+    "poster_path": "/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+    "release_date": "2007-11-09",
+    "title": "No Country for Old Men",
+    "video": false,
+    "vote_average": 7.948,
+    "vote_count": 13078
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
+    "genre_ids": [
+      18,
+      53
+    ],
+    "id": 1151272,
+    "original_language": "es",
+    "original_title": "Sirāt",
+    "overview": "A man and his son arrive at a rave lost in the mountains of Morocco. They are looking for Marina, their daughter and sister, who disappeared months ago at another rave. Driven by fate, they decide to follow a group of ravers in search of one last party, in hopes Marina will be there.",
+    "popularity": 12.8058,
+    "poster_path": "/bzBtsLi17rK4G6kDvOXfUZfAhca.jpg",
+    "release_date": "2025-06-06",
+    "title": "Sirāt",
+    "video": false,
+    "vote_average": 6.842,
+    "vote_count": 561
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/mPtPJzBkwksUoMEKpkZqxBrlKpZ.jpg",
+    "genre_ids": [
+      27
+    ],
+    "id": 1422096,
+    "original_language": "en",
+    "original_title": "Good Boy",
+    "overview": "A loyal dog moves to a rural family home with his owner Todd, only to discover supernatural forces lurking in the shadows. As dark entities threaten his human companion, the brave pup must fight to protect the one he loves most.",
+    "popularity": 12.4528,
+    "poster_path": "/daInKxjoRNLFWIus64fHAy91V0k.jpg",
+    "release_date": "2025-10-01",
+    "title": "Good Boy",
+    "video": false,
+    "vote_average": 6.7,
+    "vote_count": 554
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/bdI6U1mT0kCdTJ6TWtiFxQ42GSn.jpg",
+    "genre_ids": [
+      80,
+      18,
+      53
+    ],
+    "id": 242582,
+    "original_language": "en",
+    "original_title": "Nightcrawler",
+    "overview": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
+    "popularity": 11.3907,
+    "poster_path": "/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
+    "release_date": "2014-10-23",
+    "title": "Nightcrawler",
+    "video": false,
+    "vote_average": 7.709,
+    "vote_count": 11569
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/zhoMwQofjgVec5Sin05hWECJtVQ.jpg",
+    "genre_ids": [
+      18,
+      53,
+      80,
+      9648
+    ],
+    "id": 1456349,
+    "original_language": "fr",
+    "original_title": "Un simple accident",
+    "overview": "An unassuming mechanic is reminded of his time in an Iranian prison when he encounters a man he suspects to be his sadistic jailhouse captor.",
+    "popularity": 10.949,
+    "poster_path": "/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
+    "release_date": "2025-10-01",
+    "title": "It Was Just an Accident",
+    "video": false,
+    "vote_average": 7.189,
+    "vote_count": 460
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/MrcSSzWGsXf2IUJpjPPFLlNbjX.jpg",
+    "genre_ids": [
+      10751,
+      35,
+      12,
+      16
+    ],
+    "id": 1280282,
+    "original_language": "en",
+    "original_title": "Gabby's Dollhouse: The Movie",
+    "overview": "Gabby heads out on a road trip with her Grandma Gigi to the urban wonderland of Cat Francisco. But when Gabby's dollhouse, her most prized possession, ends up in the hands of an eccentric cat lady named Vera, Gabby sets off on an adventure through the real world to get the Gabby Cats back together and save the dollhouse before it's too late.",
+    "popularity": 8.8351,
+    "poster_path": "/t6LLguAmu6iZUN8pWhT7Q0IcaQ5.jpg",
+    "release_date": "2025-09-13",
+    "title": "Gabby's Dollhouse: The Movie",
+    "video": false,
+    "vote_average": 6.7,
+    "vote_count": 62
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/39Niij05MXfibXBsHiUU0Ml0POX.jpg",
+    "genre_ids": [
+      27,
+      10749
+    ],
+    "id": 1242011,
+    "original_language": "en",
+    "original_title": "Together",
+    "overview": "Years into their relationship, Tim and Millie find themselves at a crossroads as they move to the country, abandoning all that is familiar in their lives except each other. With tensions already flaring, a nightmarish encounter with a mysterious, unnatural force threatens to corrupt their lives, their love, and their flesh.",
+    "popularity": 8.8015,
+    "poster_path": "/80slKYVM5teFH3kz6ouWrZXveqj.jpg",
+    "release_date": "2025-07-28",
+    "title": "Together",
+    "video": false,
+    "vote_average": 6.974,
+    "vote_count": 999
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/3A0dDfZq5WxdDGt8qzmhFXqVZxJ.jpg",
+    "genre_ids": [
+      99
+    ],
+    "id": 1393151,
+    "original_language": "da",
+    "original_title": "Mr. Nobody mod Putin",
+    "overview": "As Russia launches its full-scale invasion of Ukraine, primary schools across Russia’s hinterlands are transformed into recruitment stages for the war. Facing the ethical dilemma of working in a system defined by propaganda and violence, a brave teacher goes undercover to film what’s really happening in his own school.",
+    "popularity": 8.5573,
+    "poster_path": "/ss4NEGmPxgm4D73iMFeyjbE1m9b.jpg",
+    "release_date": "2025-06-06",
+    "title": "Mr. Nobody Against Putin",
+    "video": false,
+    "vote_average": 7.565,
+    "vote_count": 62
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/AkzGC9vQbKMHGebetpjBF4bU4VS.jpg",
+    "genre_ids": [
+      27,
+      53
+    ],
+    "id": 1010756,
+    "original_language": "en",
+    "original_title": "The Strangers: Chapter 2",
+    "overview": "After learning that one of their victims, Maya, is still alive, The Strangers return to finish the job. With nowhere to run and no one to trust, Maya soon finds herself in a brutal fight for survival against psychopaths more than willing to kill anyone who stands in their way.",
+    "popularity": 7.9553,
+    "poster_path": "/pqADzs5SJvI2jC0DThPVMuNJcWS.jpg",
+    "release_date": "2025-09-25",
+    "title": "The Strangers: Chapter 2",
+    "video": false,
+    "vote_average": 6.099,
+    "vote_count": 257
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hTCr9dDf0EcBGZSUaY0YCeBjBr5.jpg",
+    "genre_ids": [
+      18,
+      36
+    ],
+    "id": 760329,
+    "original_language": "en",
+    "original_title": "The Smashing Machine",
+    "overview": "In the late 1990s, up-and-coming mixed martial artist Mark Kerr aspires to become the greatest fighter in the world. However, he must also battle his opioid dependence and a volatile relationship with his girlfriend Dawn.",
+    "popularity": 7.5774,
+    "poster_path": "/mPuBDGrVIBGOymBxR6rO3iIvBSe.jpg",
+    "release_date": "2025-10-01",
+    "title": "The Smashing Machine",
+    "video": false,
+    "vote_average": 6.5,
+    "vote_count": 497
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nLpPkNiCjxIc7sBHNro1OT0aA1q.jpg",
+    "genre_ids": [
+      878,
+      12,
+      35
+    ],
+    "id": 1154538,
+    "original_language": "en",
+    "original_title": "Nirvanna the Band the Show the Movie",
+    "overview": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008. Blah blah blah.",
+    "popularity": 7.0842,
+    "poster_path": "/sm5TGX8WbnCd9Uo26cLyTxVwA1n.jpg",
+    "release_date": "2026-02-13",
+    "title": "Nirvanna the Band the Show the Movie",
+    "video": false,
+    "vote_average": 7.8,
+    "vote_count": 15
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/zeMMVjOFwXPfRIW6HzaEr0UQlRY.jpg",
+    "genre_ids": [
+      27,
+      53
+    ],
+    "id": 1194963,
+    "original_language": "ko",
+    "original_title": "노이즈",
+    "overview": "Ju-young is a young woman with a hearing impediment who decides to investigate her sister's inexplicable disappearance, last seen in her apartment. Feeling more and more cornered, Ju-young begins to hear strange sounds and sense an evil presence in the apartment.",
+    "popularity": 6.9608,
+    "poster_path": "/uU3NXe7QqjJNxVpYPdz8dscFWlj.jpg",
+    "release_date": "2025-06-25",
+    "title": "Noise",
+    "video": false,
+    "vote_average": 6.583,
+    "vote_count": 54
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nVHEjkA8vuEGJLfNUOmVW5md6yn.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "id": 1205515,
+    "original_language": "en",
+    "original_title": "Sorry, Baby",
+    "overview": "Agnes feels stuck. Unlike her best friend, Lydie, who’s moved to New York and is now expecting a baby, Agnes still lives in the New England house they once shared as graduate students, now working as a professor at her alma mater. A ‘bad thing’ happened to Agnes a few years ago and, since then, despite her best efforts, life hasn’t gotten back on track.",
+    "popularity": 6.2668,
+    "poster_path": "/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "release_date": "2025-06-27",
+    "title": "Sorry, Baby",
+    "video": false,
+    "vote_average": 6.8,
+    "vote_count": 250
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/wPSZXVqe84X8SINvJGiKYZhkSG1.jpg",
+    "genre_ids": [
+      10752,
+      53,
+      28
+    ],
+    "id": 1009640,
+    "original_language": "en",
+    "original_title": "Valiant One",
+    "overview": "With tensions between North and South Korea, a US helicopter crashes on the North side. The survivors must work together to protect a civilian tech specialist and find their way out without the help of US military support.",
+    "popularity": 5.8949,
+    "poster_path": "/sT8Z14RDCAd6szzxzWFAU4xcMwg.jpg",
+    "release_date": "2025-01-30",
+    "title": "Valiant One",
+    "video": false,
+    "vote_average": 6.659,
+    "vote_count": 110
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/buB346BA3BlPd8rDlrXBeuNl1Gq.jpg",
+    "genre_ids": [
+      28,
+      80,
+      53
+    ],
+    "id": 478798,
+    "original_language": "cn",
+    "original_title": "風林火山",
+    "overview": "A massive explosion and shootout in snowy Causeway Bay, Hong Kong, reveals a pharmaceutical heir's plot. His father's death in hospital triggers a drug war, destabilizing both legitimate and criminal worlds.",
+    "popularity": 5.3525,
+    "poster_path": "/fNaUvdCzyNeMZFQOnfCWvMoxEeG.jpg",
+    "release_date": "2025-10-01",
+    "title": "Sons of the Neon Night",
+    "video": false,
+    "vote_average": 5.429,
+    "vote_count": 21
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/baIjN7xPyw2In1CuHACTgzcsF20.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 1397364,
+    "original_language": "it",
+    "original_title": "La grazia",
+    "overview": "As his tenure as President of Italy nears its end, Mariano De Santis faces wrenching decisions-both political and deeply personal. Amid these moral quandaries, he must confront his own conscience and seek guidance from those closest to him, including his confidante and daughter, Dorotea.",
+    "popularity": 5.313,
+    "poster_path": "/u5RgunQiA4hvDfTeWO9pS0lm4K4.jpg",
+    "release_date": "2025-12-05",
+    "title": "La Grazia",
+    "video": false,
+    "vote_average": 7.4,
+    "vote_count": 299
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/5OEcsHKZy9TLFz9qXLp5NJN9K8e.jpg",
+    "genre_ids": [
+      16,
+      12,
+      14,
+      35
+    ],
+    "id": 1064307,
+    "original_language": "no",
+    "original_title": "Spermageddon",
+    "overview": "Two narrative threads: one is an emerging love story between awkward teens Jens and Lisa, who are having sex for the first time; the other, an eventful quest of Simon the Semen and his friends to reach the golden goal, the Egg.",
+    "popularity": 5.2366,
+    "poster_path": "/n7SFxle8CVzMXzfV8GNCXqdg78m.jpg",
+    "release_date": "2024-12-28",
+    "title": "Spermageddon",
+    "video": false,
+    "vote_average": 6.476,
+    "vote_count": 123
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
+    "genre_ids": [
+      36,
+      18
+    ],
+    "id": 556574,
+    "original_language": "en",
+    "original_title": "Hamilton",
+    "overview": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
+    "popularity": 5.2117,
+    "poster_path": "/h1B7tW0t399VDjAcWJh8m87469b.jpg",
+    "release_date": "2025-09-05",
+    "title": "Hamilton",
+    "video": false,
+    "vote_average": 7.7,
+    "vote_count": 83
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
+    "genre_ids": [
+      10749,
+      14,
+      18
+    ],
+    "id": 1241921,
+    "original_language": "en",
+    "original_title": "A Big Bold Beautiful Journey",
+    "overview": "Sarah and David are single strangers who meet at a mutual friend’s wedding and soon, through a surprising twist of fate, find themselves on a funny, fantastical, sweeping adventure together where they get to re-live important moments from their respective pasts, illuminating how they got to where they are in the present... and possibly getting a chance to alter their futures.",
+    "popularity": 5.0683,
+    "poster_path": "/uMAkmQlKthQpTMiyPAKOYK3JnMs.jpg",
+    "release_date": "2025-09-17",
+    "title": "A Big Bold Beautiful Journey",
+    "video": false,
+    "vote_average": 6.277,
+    "vote_count": 328
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/kHyN3PejjlYWYz1Eah3jS64oV0g.jpg",
+    "genre_ids": [
+      18,
+      27
+    ],
+    "id": 1370814,
+    "original_language": "en",
+    "original_title": "The Plague",
+    "overview": "A socially awkward tween endures the ruthless hierarchy at a water polo camp, his anxiety spiraling into psychological turmoil over the summer.",
+    "popularity": 4.6735,
+    "poster_path": "/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
+    "release_date": "2025-12-24",
+    "title": "The Plague",
+    "video": false,
+    "vote_average": 6.561,
+    "vote_count": 66
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hyc9gq0Oq5THKak7tB7oqC2Rd6z.jpg",
+    "genre_ids": [
+      37,
+      12,
+      80
+    ],
+    "id": 1195518,
+    "original_language": "en",
+    "original_title": "The Unholy Trinity",
+    "overview": "Set against the turbulent backdrop of 1870s Montana, in the moments before the execution of Isaac Broadway, he gives his estranged son, Henry, an impossible task: murder the man who framed him for a crime he didn’t commit. Intent on fulfilling his promise, Henry travels to the remote town of Trinity, where an unexpected turn of events traps him in town and leaves him caught between Gabriel Dove, the town’s upstanding new sheriff, and a mysterious figure named St. Christopher.",
+    "popularity": 4.3491,
+    "poster_path": "/gXYYIX5VesrDtR1iYJfvUnJBPLB.jpg",
+    "release_date": "2025-06-13",
+    "title": "The Unholy Trinity",
+    "video": false,
+    "vote_average": 6.365,
+    "vote_count": 170
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/A7yTpiCFMWMZVf5kPXuga3WvfCH.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 1127628,
+    "original_language": "en",
+    "original_title": "The Thing with Feathers",
+    "overview": "After a tragic loss, a grieving father tries to raise his young sons whilst dealing with an unlikely, unpredictable, and uninvited houseguest.",
+    "popularity": 4.2123,
+    "poster_path": "/j3kM0tMW7EQaOrit0JW9NvoPPrp.jpg",
+    "release_date": "2025-10-17",
+    "title": "The Thing with Feathers",
+    "video": false,
+    "vote_average": 6.6,
+    "vote_count": 30
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/cKZcDKawR79igCgDMSXlpkn8hLR.jpg",
+    "genre_ids": [
+      18,
+      53,
+      10749
+    ],
+    "id": 997113,
+    "original_language": "en",
+    "original_title": "Hedda",
+    "overview": "Hedda Gabler finds herself torn between the lingering ache of a past love and the quiet suffocation of her present life. Over the course of one charged night, long-repressed desires and hidden tensions erupt—pulling her and everyone around her into a spiral of manipulation, passion, and betrayal.",
+    "popularity": 4.1192,
+    "poster_path": "/ecflk7AZf0ij205yDswjlvdxlCO.jpg",
+    "release_date": "2025-10-22",
+    "title": "Hedda",
+    "video": false,
+    "vote_average": 5.6,
+    "vote_count": 102
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/r6aqhlmJmu8Dv5E7QYEruaEXKYm.jpg",
+    "genre_ids": [
+      18
+    ],
+    "id": 758866,
+    "original_language": "ja",
+    "original_title": "ドライブ・マイ・カー",
+    "overview": "Yusuke Kafuku, a stage actor and director, still unable, after two years, to cope with the loss of his beloved wife, accepts to direct Uncle Vanya at a theater festival in Hiroshima. There he meets Misaki, an introverted young woman, appointed to drive his car. In between rides, secrets from the past and heartfelt confessions will be unveiled.",
+    "popularity": 4.1008,
+    "poster_path": "/a2lxHS6Au35k5XtFQEQW44yWHeH.jpg",
+    "release_date": "2021-08-18",
+    "title": "Drive My Car",
+    "video": false,
+    "vote_average": 7.449,
+    "vote_count": 1463
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/r3xsFBD1VTUusk393bBc7SsDUJe.jpg",
+    "genre_ids": [
+      80,
+      18,
+      53
+    ],
+    "id": 553,
+    "original_language": "en",
+    "original_title": "Dogville",
+    "overview": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town, she learns that their support has a price.",
+    "popularity": 4.0197,
+    "poster_path": "/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
+    "release_date": "2003-05-21",
+    "title": "Dogville",
+    "video": false,
+    "vote_average": 7.757,
+    "vote_count": 2644
+  }
+]

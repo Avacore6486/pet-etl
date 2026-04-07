@@ -1,0 +1,37 @@
+[2026-03-22T17:41:25.476+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-22T17:41:25.496+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.dbt_run_stage manual__2026-03-22T17:41:25.060122+00:00 [queued]>
+[2026-03-22T17:41:25.500+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.dbt_run_stage manual__2026-03-22T17:41:25.060122+00:00 [queued]>
+[2026-03-22T17:41:25.500+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-22T17:41:25.506+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run_stage> on 2026-03-22 17:41:25.060122+00:00
+[2026-03-22T17:41:25.514+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_stage_pipeline', 'dbt_run_stage', 'manual__2026-03-22T17:41:25.060122+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_pipeline_to_stage.py', '--cfg-path', '/tmp/tmp90tdd6ow']
+[2026-03-22T17:41:25.515+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask dbt_run_stage
+[2026-03-22T17:41:25.515+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=5192) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-22T17:41:25.516+0000] {standard_task_runner.py:63} INFO - Started process 5193 to run task
+[2026-03-22T17:41:25.558+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_stage_pipeline.dbt_run_stage manual__2026-03-22T17:41:25.060122+00:00 [running]> on host 8742e1fd3736
+[2026-03-22T17:41:25.633+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_stage_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run_stage' AIRFLOW_CTX_EXECUTION_DATE='2026-03-22T17:41:25.060122+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-22T17:41:25.060122+00:00'
+[2026-03-22T17:41:25.633+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-22T17:41:25.653+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-22T17:41:25.654+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        cd /opt/airflow/dbt/tmdb_dbt &&\n        /home/airflow/.local/bin/python /home/airflow/.local/bin/dbt run --select path:models/stage --vars \'{"load_date": "2026-03-15"}\'\n        ']
+[2026-03-22T17:41:25.662+0000] {subprocess.py:86} INFO - Output:
+[2026-03-22T17:41:25.728+0000] {subprocess.py:93} INFO - /home/airflow/.local/bin/python: can't open file '/home/airflow/.local/bin/dbt': [Errno 2] No such file or directory
+[2026-03-22T17:41:25.731+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2026-03-22T17:41:25.731+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-22T17:41:25.739+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2026-03-22T17:41:25.741+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=tmdb_stage_pipeline, task_id=dbt_run_stage, run_id=manual__2026-03-22T17:41:25.060122+00:00, execution_date=20260322T174125, start_date=20260322T174125, end_date=20260322T174125
+[2026-03-22T17:41:25.747+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 16 for task dbt_run_stage (Bash command failed. The command returned a non-zero exit code 2.; 5193)
+[2026-03-22T17:41:25.782+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-22T17:41:25.793+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-22T17:41:25.795+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

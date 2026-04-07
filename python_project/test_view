@@ -1,0 +1,23 @@
+import json
+import requests
+
+API_KEY = "ae982f3bd4696e77f2e1ad0cb4d37686"
+if not API_KEY:
+    raise ValueError("Переменная окружения TMDB_API_KEY не найдена")
+
+url = "https://api.themoviedb.org/3/discover/movie"
+
+params = {
+    "api_key": API_KEY,
+    "release_date.gte": "2024-03-10",
+    "release_date.lte": "2024-03-10",
+    "page": 1,
+}
+
+response = requests.get(url, params=params)
+response.raise_for_status()
+
+data = response.json()
+
+print("Всего фильмов на странице:", len(data.get("results", [])))
+print(json.dumps(data.get("results", [])[:2], indent=2, ensure_ascii=False))

@@ -1,0 +1,399 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/oN4TQ1TxchynXlFiXFBL3NHLT54.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        18
+      ],
+      "id": 1167307,
+      "original_language": "en",
+      "original_title": "David",
+      "overview": "From the songs of his mother’s heart to the whispers of a faithful God, David’s story begins in quiet devotion. When the giant Goliath rises to terrorize a nation, a young shepherd armed with only a sling, a few stones, and unshakable faith steps forward. Pursued by power and driven by purpose, his journey tests the limits of loyalty, love, and courage—culminating in a battle not just for a crown, but for the soul of a kingdom.",
+      "popularity": 64.3069,
+      "poster_path": "/7lFG1WrCwAxBfyGK8ahlBVzXno7.jpg",
+      "release_date": "2025-12-14",
+      "title": "David",
+      "video": false,
+      "vote_average": 8.0,
+      "vote_count": 108
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hy0Hx9fMPk2fmw26Li60z1S2giU.jpg",
+      "genre_ids": [
+        18,
+        80,
+        53
+      ],
+      "id": 629,
+      "original_language": "en",
+      "original_title": "The Usual Suspects",
+      "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+      "popularity": 10.4981,
+      "poster_path": "/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+      "release_date": "1995-07-19",
+      "title": "The Usual Suspects",
+      "video": false,
+      "vote_average": 8.168,
+      "vote_count": 11235
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tintsaQ0WLzZsTMkTiqtMB3rfc8.jpg",
+      "genre_ids": [
+        35,
+        80
+      ],
+      "id": 522627,
+      "original_language": "en",
+      "original_title": "The Gentlemen",
+      "overview": "American expat Mickey Pearson has built a highly profitable marijuana empire in London. When word gets out that he’s looking to cash out of the business forever it triggers plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+      "popularity": 6.8969,
+      "poster_path": "/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+      "release_date": "2020-01-01",
+      "title": "The Gentlemen",
+      "video": false,
+      "vote_average": 7.667,
+      "vote_count": 6468
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5dwlH8Krm2bsuc2Pubw2cBb03g5.jpg",
+      "genre_ids": [
+        18,
+        12,
+        37
+      ],
+      "id": 44264,
+      "original_language": "en",
+      "original_title": "True Grit",
+      "overview": "Following the murder of her father by a hired hand, a 14-year-old farm girl sets out to capture the killer. To aid her, she hires the toughest U.S. Marshal she can find—a man with 'true grit'—Reuben J. 'Rooster' Cogburn.",
+      "popularity": 6.5408,
+      "poster_path": "/tCrB8pcjadZjsDk7rleGJaIv78k.jpg",
+      "release_date": "2010-12-22",
+      "title": "True Grit",
+      "video": false,
+      "vote_average": 7.304,
+      "vote_count": 5671
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/i4ZougHEyBAboDpi6jsaTUDTjUl.jpg",
+      "genre_ids": [
+        14,
+        53,
+        28,
+        12,
+        27
+      ],
+      "id": 282035,
+      "original_language": "en",
+      "original_title": "The Mummy",
+      "overview": "Though safely entombed in a crypt deep beneath the unforgiving desert, an ancient queen whose destiny was unjustly taken from her is awakened in our current day, bringing with her malevolence grown over millennia, and terrors that defy human comprehension.",
+      "popularity": 5.6755,
+      "poster_path": "/zxkY8byBnCsXodEYpK8tmwEGXBI.jpg",
+      "release_date": "2017-06-06",
+      "title": "The Mummy",
+      "video": false,
+      "vote_average": 5.518,
+      "vote_count": 7561
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8yzfrJQRt90oBjSnKoziXl0A42l.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 1401542,
+      "original_language": "ko",
+      "original_title": "프로젝트 Y",
+      "overview": "Mi-sun and Do-kyung might be used to struggling in the most dangerous part of Seoul's Gangnam district, but that doesn't mean they've settled into it. With no one but each other to rely on, the two friends grind away to save the money needed to leave their dangerous lifestyles behind. But just as \"retirement\" comes within reach, the world betrays them, shattering their hopes. On the edge of a dead end, they discover a hidden fortune of dirty cash and gold in Gangnam – and place all their bets on one final high-stakes gamble of a lifetime.",
+      "popularity": 4.6462,
+      "poster_path": "/suPJAjqiW1Y25chROWBwSmkr9cy.jpg",
+      "release_date": "2026-01-21",
+      "title": "Project Y",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hqrwXs3KqPuU5rWoconbmQUn6rh.jpg",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "id": 299687,
+      "original_language": "en",
+      "original_title": "The 5th Wave",
+      "overview": "16-year-old Cassie Sullivan tries to survive in a world devastated by the waves of an alien invasion that has already decimated the population and knocked mankind back to the Stone Age.",
+      "popularity": 4.6237,
+      "poster_path": "/ja34BV577dtjWl2S5G1tB93IjYb.jpg",
+      "release_date": "2016-01-14",
+      "title": "The 5th Wave",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 5957
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lKoEEg7Nf1FUPSzRR0oMtPIqiyX.jpg",
+      "genre_ids": [
+        28,
+        35,
+        10752
+      ],
+      "id": 9255,
+      "original_language": "en",
+      "original_title": "Hot Shots! Part Deux",
+      "overview": "Topper Harley is found to be working as an odd-job-man in a monastery. The CIA want him to lead a rescue mission into Iraq, to rescue the last rescue team, who went in to rescue the last rescue team—who went in to rescue hostages left behind after Desert Storm.",
+      "popularity": 4.1505,
+      "poster_path": "/zh9EGK970GHo10ETclWBOjZVUOK.jpg",
+      "release_date": "1993-05-21",
+      "title": "Hot Shots! Part Deux",
+      "video": false,
+      "vote_average": 6.538,
+      "vote_count": 2027
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/e40FMjHg2RoypsjxygoTFB5jLUd.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1168719,
+      "original_language": "de",
+      "original_title": "Silent Friend",
+      "overview": "On the grounds of a medieval German university town looms an imposing Ginkgo biloba, a tree whose longevity stands in marked contrast to three intimate, human-scaled stories. In 1908, the university’s first female student gains admission into the prestigious botany department, confronting the sexism of both professors and peers. In 1972, amidst counterculture movements, a reserved student finds his attention captured by a fellow housemate and the geranium plant she studies. In 2020, during the COVID-19 pandemic, a neuroscientist from Hong Kong secures the help of a renowned botanist for an experiment on the old ginkgo tree.",
+      "popularity": 3.4746,
+      "poster_path": "/rC5fB6XhRKXS05vgwScnp9uGRK2.jpg",
+      "release_date": "2026-01-15",
+      "title": "Silent Friend",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 9
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sTNzZZdIm7csFdgnvP20XmSJRTx.jpg",
+      "genre_ids": [
+        14,
+        10749,
+        18,
+        878
+      ],
+      "id": 1385536,
+      "original_language": "id",
+      "original_title": "Sore: Istri Dari Masa Depan",
+      "overview": "A young man living alone in Croatia encounters a woman who claims to be his wife from the future, sent on a mission to help him correct his bad habits and improve his lifestyle.",
+      "popularity": 3.4528,
+      "poster_path": "/rpqkqiqv1nl9MbdnOLKLbqqkJSj.jpg",
+      "release_date": "2025-07-10",
+      "title": "Sore: A Wife from the Future",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 39
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7MtfQcyAYD8xUtnr2kei9phnt8M.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1390382,
+      "original_language": "fr",
+      "original_title": "Coutures",
+      "overview": "In the frenzy of Fashion Week, three women cross paths in Paris, grappling with the world's tragedies and the questions of their lives: Maxine, an American film director in her forties, discovers she has cancer; Ada, a young South Sudanese model, escapes a predetermined destiny to be thrust into a deceptive universe and French makeup artist Angèle, a small hand working in the shadows of the catwalks, dreams of escaping her life.",
+      "popularity": 3.1838,
+      "poster_path": "/jhdWrG2KebrnIbHd3UJpcpX1feE.jpg",
+      "release_date": "2026-02-18",
+      "title": "Couture",
+      "video": false,
+      "vote_average": 5.4,
+      "vote_count": 20
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rBt3qNkESmAZpQ5OR6viGItHnrf.jpg",
+      "genre_ids": [
+        80,
+        18,
+        53,
+        10770
+      ],
+      "id": 465023,
+      "original_language": "en",
+      "original_title": "Serialized",
+      "overview": "After getting dropped by her publisher, celebrated novelist Hannah Ryan uses the negative forces in her life to inspire the creation of a pulp crime serial that posts new chapters to subscriber's devices every week. The initial release is a modest success but the work becomes a massive hit after a real life murder takes place that bears a striking similarity to Hannah's story. Is it really just a coincidence or is it possible that a copycat serial killer is acting out the fictitious murders in real life? And is he going to strike again once Hannah releases her next chapter?",
+      "popularity": 2.7525,
+      "poster_path": "/bx5SewDf5H82zqlVRZFgicsVPGv.jpg",
+      "release_date": "2017-07-08",
+      "title": "Serialized",
+      "video": false,
+      "vote_average": 5.3,
+      "vote_count": 58
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rWNtdvGdLYjaLs7UlG7VsypNnJP.jpg",
+      "genre_ids": [
+        37,
+        28,
+        80
+      ],
+      "id": 27277,
+      "original_language": "en",
+      "original_title": "The War Wagon",
+      "overview": "An ex-con seeks revenge on the man who put him in prison by planning a robbery of the latter's stagecoach, which is transporting gold. He enlists the help of a partner, who could be working for his nemesis.",
+      "popularity": 2.4849,
+      "poster_path": "/wGSv9mfHocleVwH4Q8d38SkwQP.jpg",
+      "release_date": "1967-05-26",
+      "title": "The War Wagon",
+      "video": false,
+      "vote_average": 6.833,
+      "vote_count": 209
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kJQ56bguSWbXAzN7EK1RUekfY0S.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 1465563,
+      "original_language": "es",
+      "original_title": "Un poeta",
+      "overview": "Middle-aged and erratic, Oscar is a failed writer who has given up on life. Unemployed and living with family, he wanders the streets of Medellín in a drunken stupor, lamenting the state of literature in his home country, where he has succumbed to the cliché of the tortured artist. However, the opportunity to mentor a young student offers a chance at redemption, if he doesn’t screw it up first.",
+      "popularity": 2.3855,
+      "poster_path": "/o0MRVa3XMUUIxiSCZYaJ1jGXdk.jpg",
+      "release_date": "2025-08-28",
+      "title": "A Poet",
+      "video": false,
+      "vote_average": 8.0,
+      "vote_count": 14
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nZhRZy8YvWf2EysAajHGG6DfhxM.jpg",
+      "genre_ids": [
+        36,
+        18
+      ],
+      "id": 1000169,
+      "original_language": "fr",
+      "original_title": "Muganga : Celui qui soigne",
+      "overview": "Denis Mukwege, a Congolese doctor, pastor and future Nobel Peace Prize laureate, meets Guy Cadière, a Belgian surgeon and atheist. Despite their differences, they unite for a common purpose: to restore the bodies and dignity of thousands of women who have been used as weapons of war in the eastern Democratic Republic of Congo.",
+      "popularity": 2.1606,
+      "poster_path": "/wVnjMOp0IrWgdvZfmkugIn5mQY7.jpg",
+      "release_date": "2025-09-24",
+      "title": "Muganga",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 25
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mWRjVb2Lj9pjOlNcDP7lNvrvSo8.jpg",
+      "genre_ids": [
+        80,
+        35
+      ],
+      "id": 1400357,
+      "original_language": "en",
+      "original_title": "The Christophers",
+      "overview": "The estranged children of a once-famous artist hire a forger to complete his unfinished works so they can be \"discovered\" and sold after his death.",
+      "popularity": 2.1435,
+      "poster_path": "/uLRr3sVVqzcexegoCMrhb2AsVZn.jpg",
+      "release_date": "2026-04-10",
+      "title": "The Christophers",
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6g0eMfWQvYWqzaZpvPukmvGZ6Ix.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 964877,
+      "original_language": "fr",
+      "original_title": "Nous, les Leroy",
+      "overview": "A man takes his wife and their teenage children on a road trip down memory lane while facing divorce.",
+      "popularity": 2.0268,
+      "poster_path": "/8s3Wkt7V96yLOqLMbYUsxG5H49w.jpg",
+      "release_date": "2024-04-10",
+      "title": "Meet the Leroys",
+      "video": false,
+      "vote_average": 6.224,
+      "vote_count": 284
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tviTAFuCFRLElylvBAMPjdRnCDZ.jpg",
+      "genre_ids": [
+        28,
+        9648,
+        53
+      ],
+      "id": 999205,
+      "original_language": "en",
+      "original_title": "Stowaway",
+      "overview": "A tenacious party girl fights to survive after three thieves commandeer her luxury yacht. Unable to escape and trapped on the yacht at high seas, the prey becomes the hunter as she turns the tables on the intruders and takes matters into her own hands.",
+      "popularity": 1.7439,
+      "poster_path": "/8ZfKo5349nEssW0n2wqNf4vPtbZ.jpg",
+      "release_date": "2022-08-31",
+      "title": "Stowaway",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 100
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kAwN3UWRUWauNK1l4oh7TfdOsJ7.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 896096,
+      "original_language": "es",
+      "original_title": "La misteriosa mirada del flamenco",
+      "overview": "As an unknown and deadly disease begins to spread, legend has it that it is transmitted between two men, through a simple glance, when they fall in love. While people are accusing her family, Lidia must find out whether this myth is real or not.",
+      "popularity": 1.6602,
+      "poster_path": "/xfPhni21LIEmuV8HiDfrLhcmTwr.jpg",
+      "release_date": "2025-09-11",
+      "title": "The Mysterious Gaze of the Flamingo",
+      "video": false,
+      "vote_average": 6.769,
+      "vote_count": 13
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3F6Bk56735Kv7owyF6fVUWHEkIH.jpg",
+      "genre_ids": [
+        9648,
+        80,
+        18
+      ],
+      "id": 31262,
+      "original_language": "hu",
+      "original_title": "A Londoni férfi",
+      "overview": "A switchman at a seaside railway witnesses a murder but does not report it after he finds a suitcase full of money at the scene of the crime.",
+      "popularity": 1.201,
+      "poster_path": "/poBhgpN4fJfzaRuG4wMLah3rHLw.jpg",
+      "release_date": "2008-09-24",
+      "title": "The Man from London",
+      "video": false,
+      "vote_average": 7.067,
+      "vote_count": 104
+    }
+  ],
+  "total_pages": 7,
+  "total_results": 139
+}

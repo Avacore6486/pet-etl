@@ -1,0 +1,19 @@
+[2026-04-06T08:34:36.100+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-06T08:34:36.128+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.get_load_date manual__2026-04-06T08:34:32.144089+00:00 [queued]>
+[2026-04-06T08:34:36.131+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.get_load_date manual__2026-04-06T08:34:32.144089+00:00 [queued]>
+[2026-04-06T08:34:36.132+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-04-06T08:34:36.137+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_load_date> on 2026-04-06 08:34:32.144089+00:00
+[2026-04-06T08:34:36.146+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=85727) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-06T08:34:36.142+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_stage_pipeline', 'get_load_date', 'manual__2026-04-06T08:34:32.144089+00:00', '--job-id', '323', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_pipeline_to_stage.py', '--cfg-path', '/tmp/tmp89g8x2dl']
+[2026-04-06T08:34:36.148+0000] {standard_task_runner.py:91} INFO - Job 323: Subtask get_load_date
+[2026-04-06T08:34:36.148+0000] {standard_task_runner.py:63} INFO - Started process 85728 to run task
+[2026-04-06T08:34:36.182+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_stage_pipeline.get_load_date manual__2026-04-06T08:34:32.144089+00:00 [running]> on host 8742e1fd3736
+[2026-04-06T08:34:36.235+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_stage_pipeline' AIRFLOW_CTX_TASK_ID='get_load_date' AIRFLOW_CTX_EXECUTION_DATE='2026-04-06T08:34:32.144089+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-06T08:34:32.144089+00:00'
+[2026-04-06T08:34:36.238+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-06T08:34:36.269+0000] {logging_mixin.py:188} INFO - Stage load_date: 2026-03-26
+[2026-04-06T08:34:36.269+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-06T08:34:36.269+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-06T08:34:36.274+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tmdb_stage_pipeline, task_id=get_load_date, run_id=manual__2026-04-06T08:34:32.144089+00:00, execution_date=20260406T083432, start_date=20260406T083436, end_date=20260406T083436
+[2026-04-06T08:34:36.289+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-06T08:34:36.301+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-06T08:34:36.301+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

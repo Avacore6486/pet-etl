@@ -1,0 +1,112 @@
+[2026-03-22T18:17:25.402+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-22T18:17:25.417+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.load_stage_discover_movies manual__2026-03-22T18:17:23.345789+00:00 [queued]>
+[2026-03-22T18:17:25.422+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.load_stage_discover_movies manual__2026-03-22T18:17:23.345789+00:00 [queued]>
+[2026-03-22T18:17:25.423+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-22T18:17:25.429+0000] {taskinstance.py:2330} INFO - Executing <Task(SQLExecuteQueryOperator): load_stage_discover_movies> on 2026-03-22 18:17:23.345789+00:00
+[2026-03-22T18:17:25.433+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_stage_pipeline', 'load_stage_discover_movies', 'manual__2026-03-22T18:17:23.345789+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_pipeline_to_stage.py', '--cfg-path', '/tmp/tmpa0mc64br']
+[2026-03-22T18:17:25.435+0000] {standard_task_runner.py:91} INFO - Job 36: Subtask load_stage_discover_movies
+[2026-03-22T18:17:25.434+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=6700) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-22T18:17:25.437+0000] {standard_task_runner.py:63} INFO - Started process 6702 to run task
+[2026-03-22T18:17:25.471+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_stage_pipeline.load_stage_discover_movies manual__2026-03-22T18:17:23.345789+00:00 [running]> on host 8742e1fd3736
+[2026-03-22T18:17:25.547+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_stage_pipeline' AIRFLOW_CTX_TASK_ID='load_stage_discover_movies' AIRFLOW_CTX_EXECUTION_DATE='2026-03-22T18:17:23.345789+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-22T18:17:23.345789+00:00'
+[2026-03-22T18:17:25.548+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-22T18:17:25.555+0000] {sql.py:276} INFO - Executing: 
+        delete from stage.stg_tmdb_discover_movies
+        where load_date = '2026-03-15'::date;
+
+        insert into stage.stg_tmdb_discover_movies (
+            raw_id,
+            load_date,
+            movie_id,
+            ingested_at,
+            title,
+            original_title,
+            original_language,
+            overview,
+            release_date,
+            popularity,
+            vote_average,
+            vote_count,
+            is_adult,
+            is_video,
+            poster_path,
+            backdrop_path,
+            genre_ids_json,
+            raw_payload
+        )
+        select
+            r.id as raw_id,
+            r.load_date,
+            r.movie_id,
+            r.ingested_at,
+            r.payload ->> 'title' as title,
+            r.payload ->> 'original_title' as original_title,
+            r.payload ->> 'original_language' as original_language,
+            r.payload ->> 'overview' as overview,
+            nullif(r.payload ->> 'release_date', '')::date as release_date,
+            nullif(r.payload ->> 'popularity', '')::numeric as popularity,
+            nullif(r.payload ->> 'vote_average', '')::numeric as vote_average,
+            nullif(r.payload ->> 'vote_count', '')::integer as vote_count,
+            nullif(r.payload ->> 'adult', '')::boolean as is_adult,
+            nullif(r.payload ->> 'video', '')::boolean as is_video,
+            r.payload ->> 'poster_path' as poster_path,
+            r.payload ->> 'backdrop_path' as backdrop_path,
+            r.payload -> 'genre_ids' as genre_ids_json,
+            r.payload as raw_payload
+        from raw.tmdb_discover_movies r
+        where r.load_date = '2026-03-15'::date;
+        
+[2026-03-22T18:17:25.559+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2026-03-22T18:17:25.566+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2026-03-22T18:17:25.569+0000] {sql.py:470} INFO - Running statement: 
+        delete from stage.stg_tmdb_discover_movies
+        where load_date = '2026-03-15'::date;
+
+        insert into stage.stg_tmdb_discover_movies (
+            raw_id,
+            load_date,
+            movie_id,
+            ingested_at,
+            title,
+            original_title,
+            original_language,
+            overview,
+            release_date,
+            popularity,
+            vote_average,
+            vote_count,
+            is_adult,
+            is_video,
+            poster_path,
+            backdrop_path,
+            genre_ids_json,
+            raw_payload
+        )
+        select
+            r.id as raw_id,
+            r.load_date,
+            r.movie_id,
+            r.ingested_at,
+            r.payload ->> 'title' as title,
+            r.payload ->> 'original_title' as original_title,
+            r.payload ->> 'original_language' as original_language,
+            r.payload ->> 'overview' as overview,
+            nullif(r.payload ->> 'release_date', '')::date as release_date,
+            nullif(r.payload ->> 'popularity', '')::numeric as popularity,
+            nullif(r.payload ->> 'vote_average', '')::numeric as vote_average,
+            nullif(r.payload ->> 'vote_count', '')::integer as vote_count,
+            nullif(r.payload ->> 'adult', '')::boolean as is_adult,
+            nullif(r.payload ->> 'video', '')::boolean as is_video,
+            r.payload ->> 'poster_path' as poster_path,
+            r.payload ->> 'backdrop_path' as backdrop_path,
+            r.payload -> 'genre_ids' as genre_ids_json,
+            r.payload as raw_payload
+        from raw.tmdb_discover_movies r
+        where r.load_date = '2026-03-15'::date;
+        , parameters: None
+[2026-03-22T18:17:25.570+0000] {sql.py:479} INFO - Rows affected: 40
+[2026-03-22T18:17:25.572+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-22T18:17:25.577+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tmdb_stage_pipeline, task_id=load_stage_discover_movies, run_id=manual__2026-03-22T18:17:23.345789+00:00, execution_date=20260322T181723, start_date=20260322T181725, end_date=20260322T181725
+[2026-03-22T18:17:25.617+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-22T18:17:25.625+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-22T18:17:25.626+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

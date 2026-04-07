@@ -1,0 +1,17 @@
+[2026-04-07T13:37:50.854+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-07T13:37:50.872+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.trigger_mart manual__2026-04-07T13:37:44.014608+00:00 [queued]>
+[2026-04-07T13:37:50.877+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_stage_pipeline.trigger_mart manual__2026-04-07T13:37:44.014608+00:00 [queued]>
+[2026-04-07T13:37:50.877+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-04-07T13:37:50.885+0000] {taskinstance.py:2330} INFO - Executing <Task(TriggerDagRunOperator): trigger_mart> on 2026-04-07 13:37:44.014608+00:00
+[2026-04-07T13:37:50.891+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_stage_pipeline', 'trigger_mart', 'manual__2026-04-07T13:37:44.014608+00:00', '--job-id', '495', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_pipeline_to_stage.py', '--cfg-path', '/tmp/tmpqne8vgjp']
+[2026-04-07T13:37:50.894+0000] {standard_task_runner.py:91} INFO - Job 495: Subtask trigger_mart
+[2026-04-07T13:37:50.896+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=49966) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-07T13:37:50.898+0000] {standard_task_runner.py:63} INFO - Started process 49967 to run task
+[2026-04-07T13:37:50.926+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_stage_pipeline.trigger_mart manual__2026-04-07T13:37:44.014608+00:00 [running]> on host 8742e1fd3736
+[2026-04-07T13:37:50.994+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_stage_pipeline' AIRFLOW_CTX_TASK_ID='trigger_mart' AIRFLOW_CTX_EXECUTION_DATE='2026-04-07T13:37:44.014608+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-07T13:37:44.014608+00:00'
+[2026-04-07T13:37:50.995+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-07T13:37:51.043+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-07T13:37:51.049+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tmdb_stage_pipeline, task_id=trigger_mart, run_id=manual__2026-04-07T13:37:44.014608+00:00, execution_date=20260407T133744, start_date=20260407T133750, end_date=20260407T133751
+[2026-04-07T13:37:51.077+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-07T13:37:51.085+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-07T13:37:51.086+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

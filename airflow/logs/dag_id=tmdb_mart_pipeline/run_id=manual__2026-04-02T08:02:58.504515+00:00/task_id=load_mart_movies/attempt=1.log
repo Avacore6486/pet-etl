@@ -1,0 +1,84 @@
+[2026-04-02T08:03:00.600+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-02T08:03:00.615+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_mart_pipeline.load_mart_movies manual__2026-04-02T08:02:58.504515+00:00 [queued]>
+[2026-04-02T08:03:00.618+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_mart_pipeline.load_mart_movies manual__2026-04-02T08:02:58.504515+00:00 [queued]>
+[2026-04-02T08:03:00.618+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-04-02T08:03:00.623+0000] {taskinstance.py:2330} INFO - Executing <Task(SQLExecuteQueryOperator): load_mart_movies> on 2026-04-02 08:02:58.504515+00:00
+[2026-04-02T08:03:00.628+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_mart_pipeline', 'load_mart_movies', 'manual__2026-04-02T08:02:58.504515+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_pipeline_to_mart.py', '--cfg-path', '/tmp/tmpf9izrrrr']
+[2026-04-02T08:03:00.630+0000] {standard_task_runner.py:91} INFO - Job 122: Subtask load_mart_movies
+[2026-04-02T08:03:00.631+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=87852) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-02T08:03:00.631+0000] {standard_task_runner.py:63} INFO - Started process 87853 to run task
+[2026-04-02T08:03:00.655+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_mart_pipeline.load_mart_movies manual__2026-04-02T08:02:58.504515+00:00 [running]> on host 8742e1fd3736
+[2026-04-02T08:03:00.698+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_mart_pipeline' AIRFLOW_CTX_TASK_ID='load_mart_movies' AIRFLOW_CTX_EXECUTION_DATE='2026-04-02T08:02:58.504515+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-02T08:02:58.504515+00:00'
+[2026-04-02T08:03:00.699+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-02T08:03:00.704+0000] {sql.py:276} INFO - Executing: 
+        delete from datamarts.mart_movies
+        where load_date = '2026-03-22'::date;
+
+        insert into datamarts.mart_movies (
+            load_date,
+            movie_id,
+            title,
+            original_language,
+            release_date,
+            runtime_minutes,
+            budget,
+            revenue,
+            popularity,
+            vote_average,
+            vote_count
+        )
+        select
+            s.load_date,
+            s.movie_id,
+            s.title,
+            s.original_language,
+            s.release_date,
+            s.runtime_minutes,
+            s.budget,
+            s.revenue,
+            s.popularity,
+            s.vote_average,
+            s.vote_count
+        from stage.stg_tmdb_movie_details_v2 s
+        where s.load_date = '2026-03-22'::date;
+        
+[2026-04-02T08:03:00.709+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2026-04-02T08:03:00.714+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2026-04-02T08:03:00.716+0000] {sql.py:470} INFO - Running statement: 
+        delete from datamarts.mart_movies
+        where load_date = '2026-03-22'::date;
+
+        insert into datamarts.mart_movies (
+            load_date,
+            movie_id,
+            title,
+            original_language,
+            release_date,
+            runtime_minutes,
+            budget,
+            revenue,
+            popularity,
+            vote_average,
+            vote_count
+        )
+        select
+            s.load_date,
+            s.movie_id,
+            s.title,
+            s.original_language,
+            s.release_date,
+            s.runtime_minutes,
+            s.budget,
+            s.revenue,
+            s.popularity,
+            s.vote_average,
+            s.vote_count
+        from stage.stg_tmdb_movie_details_v2 s
+        where s.load_date = '2026-03-22'::date;
+        , parameters: None
+[2026-04-02T08:03:00.719+0000] {sql.py:479} INFO - Rows affected: 40
+[2026-04-02T08:03:00.721+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-02T08:03:00.725+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tmdb_mart_pipeline, task_id=load_mart_movies, run_id=manual__2026-04-02T08:02:58.504515+00:00, execution_date=20260402T080258, start_date=20260402T080300, end_date=20260402T080300
+[2026-04-02T08:03:00.773+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-02T08:03:00.782+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-02T08:03:00.782+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

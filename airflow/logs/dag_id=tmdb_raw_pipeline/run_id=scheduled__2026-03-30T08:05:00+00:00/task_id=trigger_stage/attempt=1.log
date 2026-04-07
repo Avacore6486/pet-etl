@@ -1,0 +1,17 @@
+[2026-03-30T08:12:17.018+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-30T08:12:17.036+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.trigger_stage scheduled__2026-03-30T08:05:00+00:00 [queued]>
+[2026-03-30T08:12:17.039+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_raw_pipeline.trigger_stage scheduled__2026-03-30T08:05:00+00:00 [queued]>
+[2026-03-30T08:12:17.040+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2026-03-30T08:12:17.044+0000] {taskinstance.py:2330} INFO - Executing <Task(TriggerDagRunOperator): trigger_stage> on 2026-03-30 08:05:00+00:00
+[2026-03-30T08:12:17.050+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_raw_pipeline', 'trigger_stage', 'scheduled__2026-03-30T08:05:00+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_daily_dag.py', '--cfg-path', '/tmp/tmpxz21v5hm']
+[2026-03-30T08:12:17.056+0000] {standard_task_runner.py:91} INFO - Job 101: Subtask trigger_stage
+[2026-03-30T08:12:17.058+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=87748) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-30T08:12:17.059+0000] {standard_task_runner.py:63} INFO - Started process 87749 to run task
+[2026-03-30T08:12:17.079+0000] {task_command.py:426} INFO - Running <TaskInstance: tmdb_raw_pipeline.trigger_stage scheduled__2026-03-30T08:05:00+00:00 [running]> on host 8742e1fd3736
+[2026-03-30T08:12:17.124+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tmdb_raw_pipeline' AIRFLOW_CTX_TASK_ID='trigger_stage' AIRFLOW_CTX_EXECUTION_DATE='2026-03-30T08:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-30T08:05:00+00:00'
+[2026-03-30T08:12:17.125+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-30T08:12:18.074+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-30T08:12:18.078+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tmdb_raw_pipeline, task_id=trigger_stage, run_id=scheduled__2026-03-30T08:05:00+00:00, execution_date=20260330T080500, start_date=20260330T081217, end_date=20260330T081218
+[2026-03-30T08:12:18.119+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-30T08:12:18.126+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-30T08:12:18.127+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
