@@ -16,7 +16,7 @@ S3_INPUT = "s3a://lake/sales_events"
 CH_HOST = "clickhouse01"
 CH_PORT = "8123"
 CH_DATABASE = "default"
-CH_TABLE = "raw_sales_events"
+CH_TABLE = "raw_sales_events_dist"
 CH_URL = f"jdbc:clickhouse://{CH_HOST}:{CH_PORT}/{CH_DATABASE}"
 
 spark = (

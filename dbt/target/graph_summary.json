@@ -1,0 +1,1 @@
+{"_invocation_id": "60ef1196-9730-4817-b4d9-e3d5c3084d9d", "linked": {"0": {"name": "source.sales_project.default.raw_sales_events", "type": "source", "succ": [1]}, "1": {"name": "model.sales_project.stg_sales_events", "type": "model", "succ": [2]}, "2": {"name": "model.sales_project.mart_sales_daily", "type": "model"}}}

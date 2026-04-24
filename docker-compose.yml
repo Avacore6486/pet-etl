@@ -100,6 +100,7 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/postgres
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
       AIRFLOW_UID: "50000"
+      _PIP_ADDITIONAL_REQUIREMENTS: "dbt-clickhouse==1.7.4"
     user: "50000:0"
     ports:
       - "8080:8080"
@@ -127,7 +128,10 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/postgres
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
       AIRFLOW_UID: "50000"
+      _PIP_ADDITIONAL_REQUIREMENTS: "dbt-clickhouse==1.7.4"
     user: "50000:0"
+    ports:
+      - "8085:8085"
     networks:
       - analytics-net
     volumes:
