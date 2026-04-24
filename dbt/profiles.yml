@@ -1,0 +1,11 @@
+sales_project:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: default
+      host: clickhouse01
+      port: 8123
+      user: default
+      password: ""
+      secure: false

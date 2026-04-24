@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: default
+    database: default
+    schema: default
+    tables:
+      - name: raw_sales_events
+        description: "Сырые события продаж из Kafka/MinIO"

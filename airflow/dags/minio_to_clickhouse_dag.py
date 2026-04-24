@@ -9,6 +9,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.bash import BashOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 
 SPARK_SUBMIT = "/opt/spark/bin/spark-submit"
 SPARK_MASTER = "spark://spark-master:7077"
@@ -49,3 +50,10 @@ with DAG(
         task_id="load_to_clickhouse",
         bash_command=SPARK_CMD,
     )
+
+    trigger_dbt = TriggerDagRunOperator(
+        task_id="trigger_dbt",
+        trigger_dag_id="dbt_sales",
+    )
+
+    load_to_clickhouse >> trigger_dbt
