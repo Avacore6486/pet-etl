@@ -110,6 +110,7 @@ services:
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
       - ./dbt:/opt/airflow/dbt
+      - /var/run/docker.sock:/var/run/docker.sock
     command: airflow webserver
 
   airflow-scheduler:
@@ -134,6 +135,7 @@ services:
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
       - ./dbt:/opt/airflow/dbt
+      - /var/run/docker.sock:/var/run/docker.sock
     command: airflow scheduler
 
   kafka:
@@ -279,9 +281,9 @@ services:
       - --webui-port
       - "8081"
       - --cores
-      - "2"
+      - "4"
       - --memory
-      - 2G
+      - 6G
     networks:
       - analytics-net
 
@@ -298,6 +300,64 @@ services:
     working_dir: /opt/spark-apps
     command: >
       /bin/sh -c "sleep infinity"
+    networks:
+      - analytics-net
+
+  zookeeper:
+    image: zookeeper:3.7
+    container_name: zookeeper
+    hostname: zookeeper
+    restart: unless-stopped
+    networks:
+      - analytics-net
+
+  clickhouse01:
+    image: clickhouse/clickhouse-server:22.5
+    container_name: clickhouse01
+    hostname: clickhouse01
+    restart: unless-stopped
+    depends_on:
+      - zookeeper
+    ports:
+      - "127.0.0.1:8123:8123"
+    volumes:
+      - ./clickhouse/clickhouse01:/etc/clickhouse-server
+    networks:
+      - analytics-net
+
+  clickhouse02:
+    image: clickhouse/clickhouse-server:22.5
+    container_name: clickhouse02
+    hostname: clickhouse02
+    restart: unless-stopped
+    depends_on:
+      - zookeeper
+    volumes:
+      - ./clickhouse/clickhouse02:/etc/clickhouse-server
+    networks:
+      - analytics-net
+
+  clickhouse03:
+    image: clickhouse/clickhouse-server:22.5
+    container_name: clickhouse03
+    hostname: clickhouse03
+    restart: unless-stopped
+    depends_on:
+      - zookeeper
+    volumes:
+      - ./clickhouse/clickhouse03:/etc/clickhouse-server
+    networks:
+      - analytics-net
+
+  clickhouse04:
+    image: clickhouse/clickhouse-server:22.5
+    container_name: clickhouse04
+    hostname: clickhouse04
+    restart: unless-stopped
+    depends_on:
+      - zookeeper
+    volumes:
+      - ./clickhouse/clickhouse04:/etc/clickhouse-server
     networks:
       - analytics-net
 

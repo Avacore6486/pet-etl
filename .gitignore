@@ -3,4 +3,9 @@
 *.jar
 *.log
 *.parquet
+*.csv
+*.textClipping
 airflow/logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
